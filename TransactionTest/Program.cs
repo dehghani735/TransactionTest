@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace TransactionTest
 {
-    static class Program
+    class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -25,7 +25,7 @@ namespace TransactionTest
             */
 
             LoadingAYamlStream lll = new LoadingAYamlStream();
-            lll.ali();
+            lll.Read();
 
 
             //Console.ReadKey();

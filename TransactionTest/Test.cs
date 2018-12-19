@@ -22,6 +22,11 @@ namespace TransactionTest
             return TutorialName;
         }
 
+        static void Main()
+        {
+            
+        }
+
 
     }
 }

@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using YamlDotNet.RepresentationModel;
 using YamlDotNet.Helpers;
+
 //using Xunit.Abstractions;
 
 namespace TransactionTest
@@ -22,7 +23,7 @@ namespace TransactionTest
         )]*/
 
 
-        public void ali()
+        public void Read()
         {
             // Setup the input
             var input = new StringReader(Document);
@@ -33,18 +34,22 @@ namespace TransactionTest
 
             // Examine the stream
             var mapping =
-                (YamlMappingNode)yaml.Documents[0].RootNode;
+                (YamlMappingNode) yaml.Documents[0].RootNode;
 
             foreach (var entry in mapping.Children)
             {
-                Console.WriteLine(((YamlScalarNode)entry.Key).Value);
+                Console.Write(((YamlScalarNode) entry.Key).Value + " : ");
+
+                Console.Write((entry.Value));
+
+                Console.WriteLine();
                 //output.WriteLine(((YamlScalarNode)entry.Key).Value);
             }
 
-            //Console.WriteLine(counter);
+            Console.WriteLine("====================");
 
             // List all the items
-             var items = (YamlSequenceNode)mapping.Children[new YamlScalarNode("Financial")];
+            var items = (YamlSequenceNode) mapping.Children[new YamlScalarNode("Financial")];
             foreach (YamlScalarNode item in items)
             {
                 Console.WriteLine(
@@ -57,13 +62,15 @@ namespace TransactionTest
                   ); */
             }
 
-            var dataParameters = (YamlMappingNode)mapping.Children[new YamlScalarNode("Data-Parameters")];
+            Console.WriteLine("====================");
 
-            var cards = (YamlSequenceNode)dataParameters.Children[new YamlScalarNode("Cards")];
+            var dataParameters = (YamlMappingNode) mapping.Children[new YamlScalarNode("Data-Parameters")];
+
+            var cards = (YamlSequenceNode) dataParameters.Children[new YamlScalarNode("Cards")];
             foreach (YamlMappingNode data in cards)
             {
                 Console.WriteLine(
-                data.Children[new YamlScalarNode("Card_Type")]
+                    data.Children[new YamlScalarNode("Card_Type")]
                 );
                 /*  output.WriteLine(
                       "{0}\t{1}",
@@ -72,15 +79,19 @@ namespace TransactionTest
                   ); */
             }
 
-            var amount = (YamlScalarNode)dataParameters.Children[new YamlScalarNode("Amount")];
-            
+            Console.WriteLine("====================");
+
+            var amount = (YamlScalarNode) dataParameters.Children[new YamlScalarNode("Amount")];
+
             Console.WriteLine(amount);
+
+            Console.WriteLine("====================");
+
             /*foreach (var entry in amount)
             {
                 Console.WriteLine(((YamlScalarNode)entry.Value).Value);
                 //output.WriteLine(((YamlScalarNode)entry.Key).Value);
             }*/
-
         }
 
         private const string Document = @"---
@@ -127,7 +138,14 @@ namespace TransactionTest
                       Track: 5894631511409724=99105061710399300020
 
                 Amount: 200000
-                
+              
+
+
+
+
+
+
+
 
             date:        2007-08-06
             customer:

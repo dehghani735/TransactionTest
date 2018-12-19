@@ -1,0 +1,838 @@
+﻿---
+Balance: تراکنش مانده در تاریخ 26 آذر 97 زده شد (ابتدا این تراکنش زده شد و سپس برداشت وجه)
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 11:56:55 GMT+03:30 2018.971">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>TRANSACTION REQUEST</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;16&#28;;5894631511409724=99105061710399300020?&#28;&#28;AAAAA   &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 11:56:55 GMT+03:30 2018.980" lifespan="3ms">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>ONUS PIN VERIFY</OPERATION>
+	    <MSG-ID>7</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;16&#28;;5894631511409724=99105061710399300020?&#28;&#28;AAAAA   &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="CARDVERIFY REQUEST" at="Mon Dec 17 11:56:55 GMT+03:30 2018.981">
+	<MSG-ID>7</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<AT>10</AT>
+	</log>
+	<log realm="BEFORE Security.checkCvv1" at="Mon Dec 17 11:56:55 GMT+03:30 2018.982">
+	<MSG-ID>7</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	5894631511409724
+	</log>
+	<log realm="AFTER Security.checkCvv1" at="Mon Dec 17 11:56:55 GMT+03:30 2018.986">
+	<MSG-ID>7</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	0
+	</log>
+	<log realm="CARDVERIFY RESPONSE" at="Mon Dec 17 11:56:55 GMT+03:30 2018.986">
+	<MSG-ID>7</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<RESPONSE CODE>000</RESPONSE CODE>
+	<AT>15</AT>
+	</log>
+	<log realm="PINVERIFY REQUEST" at="Mon Dec 17 11:56:55 GMT+03:30 2018.986">
+	<MSG-ID>7</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93APswitchPackager -->
+	  <field id="0" value="1200"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="308000"/>
+	  <field id="7" value="1217082655"/>
+	  <field id="11" value="410566"/>
+	  <field id="12" value="181217115655"/>
+	  <field id="13" value="1217"/>
+	  <field id="14" value="9910"/>
+	  <field id="17" value="1217"/>
+	  <field id="18" value="6011"/>
+	  <field id="19" value="364"/>
+	  <field id="21" value="364"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="693"/>
+	  <field id="26" value="6011"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835111410566"/>
+	  <field id="40" value="506"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100"/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410566"/>
+	  <field id="49" value="364"/>
+	  <field id="50" value="364"/>
+	  <field id="51" value="364"/>
+	  <field id="52" value="E106CF1E82C7E9D2" type="binary"/>
+	  <field id="53" value="01030100000000000060060000000000010001FFFFFFFFFFFFFFF000000000" type="binary"/>
+	  <field id="100" value="000013"/>
+	</isomsg>
+	<AT>15</AT>
+	</log>
+	<log realm="PINVERIFY RESPONSE" at="Mon Dec 17 11:56:55 GMT+03:30 2018.994">
+	<MSG-ID>7</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93APswitchPackager -->
+	  <field id="0" value="1210"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="308000"/>
+	  <field id="7" value="1217082655"/>
+	  <field id="11" value="410566"/>
+	  <field id="12" value="181217115655"/>
+	  <field id="13" value="1217"/>
+	  <field id="14" value="9910"/>
+	  <field id="17" value="1217"/>
+	  <field id="18" value="6011"/>
+	  <field id="19" value="364"/>
+	  <field id="21" value="364"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="693"/>
+	  <field id="26" value="6011"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835111410566"/>
+	  <field id="39" value="000"/>
+	  <field id="40" value="506"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100"/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410566"/>
+	  <field id="49" value="364"/>
+	  <field id="50" value="364"/>
+	  <field id="51" value="364"/>
+	  <field id="52" value="E106CF1E82C7E9D2" type="binary"/>
+	  <field id="53" value="01030100000000000060060000000000010001FFFFFFFFFFFFFFF000000000" type="binary"/>
+	  <field id="100" value="000013"/>
+	</isomsg>
+	<AT>23</AT>
+	</log>
+	<log realm="FUNCTION" at="Mon Dec 17 11:56:56 GMT+03:30 2018.11" lifespan="15ms">
+	  <transactionControl>
+	    <MSG-ID>7</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <BEFORE PRE CONTROL  RESPONSE CODE>0</BEFORE PRE CONTROL  RESPONSE CODE>
+	    <PRE CONTROL RETURN RESPONSE CODE>0 internal 14 dur 14</PRE CONTROL RETURN RESPONSE CODE>
+	  </transactionControl>
+	</log>
+	<log realm="doExternalResponsCode" at="Mon Dec 17 11:56:56 GMT+03:30 2018.13" lifespan="2ms">
+	  <DO EXTERNAL RESPONS CODE>
+	    <MSG-ID>7</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </DO EXTERNAL RESPONS CODE>
+	</log>
+	<log realm="updateCardActivity" at="Mon Dec 17 11:56:56 GMT+03:30 2018.24" lifespan="10ms">
+	  <UPDATE CARD ACTIVITY>
+	    <MSG-ID>7</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </UPDATE CARD ACTIVITY>
+	</log>
+	<log realm="SEND RESPONSE" at="Mon Dec 17 11:56:56 GMT+03:30 2018.27">
+	  <SEND RESPONSE>
+	    <MSG-ID>7</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <ATM OPCODE>ONUS PIN VERIFY</ATM OPCODE>
+	    <NEXT OPCODE>-1</NEXT OPCODE>
+	    <RESPONSE CODE>0</RESPONSE CODE>
+	    <RESPONSE STREAM>4 .000..041..05665050050..P005;1.\@@.P2050.\.(7.600+1.(1.0========================================..(1.5AUTHORIZATION..(1.4DATE     HOUR       OP.      ATM..(1.01397/09/26  11:56:56  410566  37095553..(1.4CARD NBR.      : 5894631511409724  ..(1.4ACCOUNT NBR.   :   ..(1.4RESPONSE CODE  : 000  ..(1.0========================================..+0</RESPONSE STREAM>
+	    <AGE>50</AGE>
+	  </SEND RESPONSE>
+	</log>
+	<log realm="SWITCH TO NETWORK ndc-machine9005" at="Mon Dec 17 11:56:56 GMT+03:30 2018.28" lifespan="1ms">
+	  <SENT MESSAGE>
+	    <MSG-ID>7</MSG-ID>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <isomsg direction="outgoing">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="TR"/>
+	      <field id="1" value="4 &#28;000&#28;&#28;041&#28;&#28;05665050050&#12;&#27;P005;1&#27;\&#15;@@&#27;P2050&#27;\&#27;(7&#28;600&#29;1&#27;(1&#14;0========================================&#10;&#27;(1&#14;5AUTHORIZATION&#10;&#27;(1&#14;4DATE     HOUR       OP.      ATM&#10;&#27;(1&#14;01397/09/26  11:56:56  410566  37095553&#10;&#27;(1&#14;4CARD NBR.      : 5894631511409724  &#10;&#27;(1&#14;4ACCOUNT NBR.   :   &#10;&#27;(1&#14;4RESPONSE CODE  : 000  &#10;&#27;(1&#14;0========================================&#10;&#12;&#29;0"/>
+	    </isomsg>
+	  </SENT MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 11:56:56 GMT+03:30 2018.386">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>SOLICITED</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 11:56:56 GMT+03:30 2018.387">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>SOL</OPERATION>
+	    <MSG-ID>7</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 11:56:58 GMT+03:30 2018.91">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>TRANSACTION REQUEST</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;17&#28;;5894631511409724=99105061710399300020?&#28;&#28;A   CC  &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20566100000000000000000000"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 11:56:58 GMT+03:30 2018.96" lifespan="4ms">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>29</OPERATION>
+	    <MSG-ID>8</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;17&#28;;5894631511409724=99105061710399300020?&#28;&#28;A   CC  &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20566100000000000000000000"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="SEND RESPONSE" at="Mon Dec 17 11:56:58 GMT+03:30 2018.98">
+	  <SEND RESPONSE>
+	    <MSG-ID>8</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <ATM OPCODE>29</ATM OPCODE>
+	    <NEXT OPCODE>3</NEXT OPCODE>
+	    <RESPONSE CODE>0</RESPONSE CODE>
+	    <RESPONSE STREAM>4 .000..111..00005.700 +0 +0 </RESPONSE STREAM>
+	    <AGE>6</AGE>
+	  </SEND RESPONSE>
+	</log>
+	<log realm="SWITCH TO NETWORK ndc-machine9005" at="Mon Dec 17 11:56:58 GMT+03:30 2018.98">
+	  <SENT MESSAGE>
+	    <MSG-ID>8</MSG-ID>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <isomsg direction="outgoing">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="TR"/>
+	      <field id="1" value="4 &#28;000&#28;&#28;111&#28;&#28;00005&#28;700 &#29;0 &#29;0 "/>
+	    </isomsg>
+	  </SENT MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 11:56:58 GMT+03:30 2018.421">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>SOLICITED</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 11:56:58 GMT+03:30 2018.422">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>SOL</OPERATION>
+	    <MSG-ID>8</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 11:56:59 GMT+03:30 2018.440">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>TRANSACTION REQUEST</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;18&#28;;5894631511409724=99105061710399300020?&#28;&#28;AAAC   A&#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 11:56:59 GMT+03:30 2018.453" lifespan="5ms">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>ONUS  BALANCE</OPERATION>
+	    <MSG-ID>9</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;18&#28;;5894631511409724=99105061710399300020?&#28;&#28;AAAC   A&#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="FUNCTION" at="Mon Dec 17 11:56:59 GMT+03:30 2018.470" lifespan="16ms">
+	  <transactionControl>
+	    <MSG-ID>9</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <BEFORE PRE CONTROL  RESPONSE CODE>0</BEFORE PRE CONTROL  RESPONSE CODE>
+	    <PRE CONTROL RETURN RESPONSE CODE>0 internal 13 dur 13</PRE CONTROL RETURN RESPONSE CODE>
+	  </transactionControl>
+	</log>
+	<log realm="BALANCE REQUEST" at="Mon Dec 17 11:56:59 GMT+03:30 2018.470">
+	<MSG-ID>9</MSG-ID>
+	<TO>core</TO>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93APswitchPackager -->
+	  <field id="0" value="1200"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="318000"/>
+	  <field id="7" value="1217082659"/>
+	  <field id="11" value="410568"/>
+	  <field id="12" value="181217115659"/>
+	  <field id="13" value="1217"/>
+	  <field id="14" value="9910"/>
+	  <field id="17" value="1217"/>
+	  <field id="18" value="6011"/>
+	  <field id="19" value="364"/>
+	  <field id="21" value="364"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="281"/>
+	  <field id="26" value="6011"/>
+	  <field id="27" value="6"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835111410568"/>
+	  <field id="40" value="506"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100"/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410568SAT00200SAS0011"/>
+	  <field id="49" value="364"/>
+	  <field id="52" value="E106CF1E82C7E9D2" type="binary"/>
+	  <field id="53" value="01030100000000000060060000000000010001FFFFFFFFFFFFFFF000000000" type="binary"/>
+	  <field id="100" value="000013"/>
+	  <field id="102" value="4066963031"/>
+	</isomsg>
+	<AT>30</AT>
+	</log>
+	<log realm="BALANCE RESPONSE" at="Mon Dec 17 11:56:59 GMT+03:30 2018.519">
+	<MSG-ID>9</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<FROM>core</FROM>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93DPPackager -->
+	  <field id="0" value="1210"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="310000"/>
+	  <field id="7" value="1217082659"/>
+	  <field id="11" value="410568"/>
+	  <field id="12" value="181217115659"/>
+	  <field id="14" value="0000"/>
+	  <field id="18" value="6011"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="281"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835111410568"/>
+	  <field id="38" value="000000"/>
+	  <field id="39" value="000"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100   "/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410568SAT00200SAS0011D0101420181217115659"/>
+	  <field id="49" value="364"/>
+	  <field id="54" value="0001364C0002993749460002364C000299374946"/>
+	  <field id="102" value="4066963031"/>
+	  <field id="111" value="IR800130100000000031169454"/>
+	</isomsg>
+	<AT>79</AT>
+	</log>
+	<log realm="doExternalResponsCode" at="Mon Dec 17 11:56:59 GMT+03:30 2018.522" lifespan="2ms">
+	  <DO EXTERNAL RESPONS CODE>
+	    <MSG-ID>9</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </DO EXTERNAL RESPONS CODE>
+	</log>
+	<log realm="SEND RESPONSE" at="Mon Dec 17 11:56:59 GMT+03:30 2018.526">
+	  <SEND RESPONSE>
+	    <MSG-ID>9</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <ATM OPCODE>ONUS  BALANCE</ATM OPCODE>
+	    <NEXT OPCODE>-1</NEXT OPCODE>
+	    <RESPONSE CODE>0</RESPONSE CODE>
+	    <RESPONSE STREAM>4 .000..113..05685060060.@@.P2060.\.(7.[20;80m.(7.[20;80mHI 299 374 946 .(7.[20;80mKI 299 374 946 .802.(7.9001332.(1:.(7 \&JD >Q  \#M@ PZ#&...(7.4A">@'>[= ^@_S_'>Q  (J#C      A[@..(7.437095553.(7.1410568.(7.111.(1:.(756.(1:.(759.(7.11397.(1/.(709.(1/.(726..(1.1-----------------------------------..(7.9&#C; ^>[,[X >_C@...(1.1****-****-****-.(79724.(1.1: .(7(@#Q \@#XD..(1.5: .(7^QZ#& Z_& ]C#ZD..(1.1IR800130100000000031169454...(7.1299 374 946        .(1.1: .(7^JO"[ \\>Z#X..(7.1^@#&(J" ^#] (@#Q ^"@& \>D M@EX @#&(J"..(7.1299 374 946        .(1.1: .(7(D">@& T&#O \>Z#X..(7.1^@#&(J" ^#] (@#Q ^"@& @#&(J" \>Z#X..(1.1-----------------------------------..(7.?@QD(#&..(7.; #MGU ^X"@S ^@(DX..(7.5 >__#XZ #;X" "@Z" >_C@ \>]#DXA" C'..+1.(1.0========================================..(1.5BALANCE  INQUIRY..(1.4DATE     HOUR       OP.      ATM..(1.01397/09/26  11:56:59  410568  37095553..(1.4CARD NBR.   : 5894631511409724  ..(1.4ACCOUNT NBR.  :   ..(1.4AVAILABLE BALANCE : 299 374 946 ..(1.4RESPONSE CODE  : 000  ..(1.0========================================..+0</RESPONSE STREAM>
+	    <AGE>78</AGE>
+	  </SEND RESPONSE>
+	</log>
+	<log realm="SWITCH TO NETWORK ndc-machine9005" at="Mon Dec 17 11:56:59 GMT+03:30 2018.526">
+	  <SENT MESSAGE>
+	    <MSG-ID>9</MSG-ID>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <isomsg direction="outgoing">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="TR"/>
+	      <field id="1" value="4 &#28;000&#28;&#28;113&#28;&#28;05685060060&#12;&#15;@@&#27;P2060&#27;\&#27;(7&#27;[20;80m&#27;(7&#27;[20;80m&#15;HI 299 374 946 &#27;(7&#27;[20;80m&#15;KI 299 374 946 &#28;802&#27;(7&#14;9001332&#27;(1:&#27;(7 \&amp;JD &gt;Q  \#M@ PZ#&amp;&#10;&#10;&#27;(7&#14;4A&quot;&gt;@'&gt;[= ^@_S_'&gt;Q  (J#C      A[@&#10;&#27;(7&#14;437095553&#27;(7&#14;1410568&#27;(7&#14;111&#27;(1:&#27;(756&#27;(1:&#27;(759&#27;(7&#14;11397&#27;(1/&#27;(709&#27;(1/&#27;(726&#10;&#27;(1&#14;1-----------------------------------&#10;&#27;(7&#14;9&amp;#C; ^&gt;[,[X &gt;_C@&#10;&#10;&#27;(1&#14;1****-****-****-&#27;(79724&#27;(1&#14;1: &#27;(7(@#Q \@#XD&#10;&#27;(1&#14;5: &#27;(7^QZ#&amp; Z_&amp; ]C#ZD&#10;&#27;(1&#14;1IR800130100000000031169454&#10;&#10;&#27;(7&#14;1299 374 946        &#27;(1&#14;1: &#27;(7^JO&quot;[ \\&gt;Z#X&#10;&#27;(7&#14;1^@#&amp;(J&quot; ^#] (@#Q ^&quot;@&amp; \&gt;D M@EX @#&amp;(J&quot;&#10;&#27;(7&#14;1299 374 946        &#27;(1&#14;1: &#27;(7(D&quot;&gt;@&amp; T&amp;#O \&gt;Z#X&#10;&#27;(7&#14;1^@#&amp;(J&quot; ^#] (@#Q ^&quot;@&amp; @#&amp;(J&quot; \&gt;Z#X&#10;&#27;(1&#14;1-----------------------------------&#10;&#27;(7&#14;?@QD(#&amp;&#10;&#27;(7&#14;; #MGU ^X&quot;@S ^@(DX&#10;&#27;(7&#14;5 &gt;__#XZ #;X&quot; &quot;@Z&quot; &gt;_C@ \&gt;]#DXA&quot; C'&#10;&#12;&#29;1&#27;(1&#14;0========================================&#10;&#27;(1&#14;5BALANCE  INQUIRY&#10;&#27;(1&#14;4DATE     HOUR       OP.      ATM&#10;&#27;(1&#14;01397/09/26  11:56:59  410568  37095553&#10;&#27;(1&#14;4CARD NBR.   : 5894631511409724  &#10;&#27;(1&#14;4ACCOUNT NBR.  :   &#10;&#27;(1&#14;4AVAILABLE BALANCE : 299 374 946 &#10;&#27;(1&#14;4RESPONSE CODE  : 000  &#10;&#27;(1&#14;0========================================&#10;&#12;&#29;0"/>
+	    </isomsg>
+	  </SENT MESSAGE>
+	</log>
+
+Withdrawal: تراکنش برداشت وجه است. در تاریخ 26 آذر 97 تراکنش برداشت وجه از دستگاه ای تی ام زده شد با مبلغ 500000 ریال. و کل تریس آن اینجا آورده شده است
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 12:02:26 GMT+03:30 2018.154">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>TRANSACTION REQUEST</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;1=&#28;;5894631511409724=99105061710399300020?&#28;&#28;AAAAA   &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+		</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 12:02:26 GMT+03:30 2018.168" lifespan="5ms">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>ONUS PIN VERIFY</OPERATION>
+	    <MSG-ID>15</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;1=&#28;;5894631511409724=99105061710399300020?&#28;&#28;AAAAA   &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="CARDVERIFY REQUEST" at="Mon Dec 17 12:02:26 GMT+03:30 2018.169">
+	<MSG-ID>15</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<AT>15</AT>
+	</log>
+	<log realm="BEFORE Security.checkCvv1" at="Mon Dec 17 12:02:26 GMT+03:30 2018.169">
+	<MSG-ID>15</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	5894631511409724
+	</log>
+	<log realm="AFTER Security.checkCvv1" at="Mon Dec 17 12:02:26 GMT+03:30 2018.173">
+	<MSG-ID>15</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	0
+	</log>
+	<log realm="CARDVERIFY RESPONSE" at="Mon Dec 17 12:02:26 GMT+03:30 2018.174">
+	<MSG-ID>15</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<RESPONSE CODE>000</RESPONSE CODE>
+	<AT>20</AT>
+	</log>
+	<log realm="PINVERIFY REQUEST" at="Mon Dec 17 12:02:26 GMT+03:30 2018.174">
+	<MSG-ID>15</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93APswitchPackager -->
+	  <field id="0" value="1200"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="308000"/>
+	  <field id="7" value="1217083226"/>
+	  <field id="11" value="410585"/>
+	  <field id="12" value="181217120226"/>
+	  <field id="13" value="1217"/>
+	  <field id="14" value="9910"/>
+	  <field id="17" value="1217"/>
+	  <field id="18" value="6011"/>
+	  <field id="19" value="364"/>
+	  <field id="21" value="364"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="693"/>
+	  <field id="26" value="6011"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835112410585"/>
+	  <field id="40" value="506"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100"/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410585"/>
+	  <field id="49" value="364"/>
+	  <field id="50" value="364"/>
+	  <field id="51" value="364"/>
+	  <field id="52" value="E106CF1E82C7E9D2" type="binary"/>
+	  <field id="53" value="01030100000000000060060000000000010001FFFFFFFFFFFFFFF000000000" type="binary"/>
+	  <field id="100" value="000013"/>
+	</isomsg>
+	<AT>20</AT>
+	</log>
+	<log realm="PINVERIFY RESPONSE" at="Mon Dec 17 12:02:26 GMT+03:30 2018.182">
+	<MSG-ID>15</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93APswitchPackager -->
+	  <field id="0" value="1210"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="308000"/>
+	  <field id="7" value="1217083226"/>
+	  <field id="11" value="410585"/>
+	  <field id="12" value="181217120226"/>
+	  <field id="13" value="1217"/>
+	  <field id="14" value="9910"/>
+	  <field id="17" value="1217"/>
+	  <field id="18" value="6011"/>
+	  <field id="19" value="364"/>
+	  <field id="21" value="364"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="693"/>
+	  <field id="26" value="6011"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835112410585"/>
+	  <field id="39" value="000"/>
+	  <field id="40" value="506"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100"/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410585"/>
+	  <field id="49" value="364"/>
+	  <field id="50" value="364"/>
+	  <field id="51" value="364"/>
+	  <field id="52" value="E106CF1E82C7E9D2" type="binary"/>
+	  <field id="53" value="01030100000000000060060000000000010001FFFFFFFFFFFFFFF000000000" type="binary"/>
+	  <field id="100" value="000013"/>
+	</isomsg>
+	<AT>28</AT>
+	</log>
+	<log realm="FUNCTION" at="Mon Dec 17 12:02:26 GMT+03:30 2018.193" lifespan="10ms">
+	  <transactionControl>
+	    <MSG-ID>15</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <BEFORE PRE CONTROL  RESPONSE CODE>0</BEFORE PRE CONTROL  RESPONSE CODE>
+	    <PRE CONTROL RETURN RESPONSE CODE>0 internal 9 dur 9</PRE CONTROL RETURN RESPONSE CODE>
+	  </transactionControl>
+	</log>
+	<log realm="doExternalResponsCode" at="Mon Dec 17 12:02:26 GMT+03:30 2018.196" lifespan="2ms">
+	  <DO EXTERNAL RESPONS CODE>
+	    <MSG-ID>15</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </DO EXTERNAL RESPONS CODE>
+	</log>
+	<log realm="updateCardActivity" at="Mon Dec 17 12:02:26 GMT+03:30 2018.200" lifespan="4ms">
+	  <UPDATE CARD ACTIVITY>
+	    <MSG-ID>15</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </UPDATE CARD ACTIVITY>
+	</log>
+	<log realm="SEND RESPONSE" at="Mon Dec 17 12:02:26 GMT+03:30 2018.203">
+	  <SEND RESPONSE>
+	    <MSG-ID>15</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <ATM OPCODE>ONUS PIN VERIFY</ATM OPCODE>
+	    <NEXT OPCODE>-1</NEXT OPCODE>
+	    <RESPONSE CODE>0</RESPONSE CODE>
+	    <RESPONSE STREAM>4 .000..041..05855050050..P005;1.\@@.P2050.\.(7.=00+1.(1.0========================================..(1.5AUTHORIZATION..(1.4DATE     HOUR       OP.      ATM..(1.01397/09/26  12:02:26  410585  37095553..(1.4CARD NBR.      : 5894631511409724  ..(1.4ACCOUNT NBR.   :   ..(1.4RESPONSE CODE  : 000  ..(1.0========================================..+0</RESPONSE STREAM>
+	    <AGE>40</AGE>
+	  </SEND RESPONSE>
+	</log>
+	<log realm="SWITCH TO NETWORK ndc-machine9005" at="Mon Dec 17 12:02:26 GMT+03:30 2018.203">
+	  <SENT MESSAGE>
+	    <MSG-ID>15</MSG-ID>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <isomsg direction="outgoing">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="TR"/>
+	      <field id="1" value="4 &#28;000&#28;&#28;041&#28;&#28;05855050050&#12;&#27;P005;1&#27;\&#15;@@&#27;P2050&#27;\&#27;(7&#28;=00&#29;1&#27;(1&#14;0========================================&#10;&#27;(1&#14;5AUTHORIZATION&#10;&#27;(1&#14;4DATE     HOUR       OP.      ATM&#10;&#27;(1&#14;01397/09/26  12:02:26  410585  37095553&#10;&#27;(1&#14;4CARD NBR.      : 5894631511409724  &#10;&#27;(1&#14;4ACCOUNT NBR.   :   &#10;&#27;(1&#14;4RESPONSE CODE  : 000  &#10;&#27;(1&#14;0========================================&#10;&#12;&#29;0"/>
+	    </isomsg>
+	  </SENT MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 12:02:26 GMT+03:30 2018.549">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>SOLICITED</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 12:02:26 GMT+03:30 2018.550">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>SOL</OPERATION>
+	    <MSG-ID>15</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 12:02:31 GMT+03:30 2018.281" lifespan="1ms">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>TRANSACTION REQUEST</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;1&gt;&#28;;5894631511409724=99105061710399300020?&#28;&#28;A   DC  &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20585100000000000000000000"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 12:02:31 GMT+03:30 2018.285" lifespan="4ms">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>29</OPERATION>
+	    <MSG-ID>16</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;1&gt;&#28;;5894631511409724=99105061710399300020?&#28;&#28;A   DC  &#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20585100000000000000000000"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="SEND RESPONSE" at="Mon Dec 17 12:02:31 GMT+03:30 2018.286">
+	  <SEND RESPONSE>
+	    <MSG-ID>16</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <ATM OPCODE>29</ATM OPCODE>
+	    <NEXT OPCODE>4</NEXT OPCODE>
+	    <RESPONSE CODE>0</RESPONSE CODE>
+	    <RESPONSE STREAM>4 .000..266..00005.>00 +0 +0 </RESPONSE STREAM>
+	    <AGE>5</AGE>
+	  </SEND RESPONSE>
+	</log>
+	<log realm="SWITCH TO NETWORK ndc-machine9005" at="Mon Dec 17 12:02:31 GMT+03:30 2018.287">
+	  <SENT MESSAGE>
+	    <MSG-ID>16</MSG-ID>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <isomsg direction="outgoing">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="TR"/>
+	      <field id="1" value="4 &#28;000&#28;&#28;266&#28;&#28;00005&#28;&gt;00 &#29;0 &#29;0 "/>
+	    </isomsg>
+	  </SENT MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 12:02:31 GMT+03:30 2018.629">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>SOLICITED</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 12:02:31 GMT+03:30 2018.630" lifespan="1ms">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>SOL</OPERATION>
+	    <MSG-ID>16</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 12:02:37 GMT+03:30 2018.134">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>TRANSACTION REQUEST</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;1?&#28;;5894631511409724=99105061710399300020?&#28;&#28;ADFI   A&#28;000000500000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 12:02:37 GMT+03:30 2018.146" lifespan="6ms">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>ONUS WITHDRAWAL</OPERATION>
+	    <MSG-ID>17</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="11"/>
+	      <field id="1" value="11&#28;000&#28;&#28;&#28;1?&#28;;5894631511409724=99105061710399300020?&#28;&#28;ADFI   A&#28;000000500000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="PARTICIPANT" at="Mon Dec 17 12:02:37 GMT+03:30 2018.149">
+	  <Dispensing>
+	    <MSG-ID>17</MSG-ID>
+	    <DISPENSING>01000000</DISPENSING>
+	  </Dispensing>
+	</log>
+	<log realm="FUNCTION" at="Mon Dec 17 12:02:37 GMT+03:30 2018.166" lifespan="17ms">
+	  <transactionControl>
+	    <MSG-ID>17</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <BEFORE PRE CONTROL  RESPONSE CODE>0</BEFORE PRE CONTROL  RESPONSE CODE>
+	    <PRE CONTROL RETURN RESPONSE CODE>0 internal 15 dur 15</PRE CONTROL RETURN RESPONSE CODE>
+	  </transactionControl>
+	</log>
+	<log realm="WITHDRAWAL REQUEST" at="Mon Dec 17 12:02:37 GMT+03:30 2018.167">
+	<MSG-ID>17</MSG-ID>
+	<TO>core</TO>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93APswitchPackager -->
+	  <field id="0" value="1200"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="018000"/>
+	  <field id="4" value="000000500000"/>
+	  <field id="5" value="000000500000"/>
+	  <field id="6" value="000000500000"/>
+	  <field id="7" value="1217083237"/>
+	  <field id="11" value="410586"/>
+	  <field id="12" value="181217120237"/>
+	  <field id="13" value="1217"/>
+	  <field id="14" value="9910"/>
+	  <field id="17" value="1217"/>
+	  <field id="18" value="6011"/>
+	  <field id="19" value="364"/>
+	  <field id="21" value="364"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="200"/>
+	  <field id="26" value="6011"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835112410586"/>
+	  <field id="40" value="506"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100"/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410586SAT00200SAS0011"/>
+	  <field id="49" value="364"/>
+	  <field id="50" value="364"/>
+	  <field id="51" value="364"/>
+	  <field id="52" value="E106CF1E82C7E9D2" type="binary"/>
+	  <field id="53" value="01030100000000000060060000000000010001FFFFFFFFFFFFFFF000000000" type="binary"/>
+	  <field id="102" value="4066963031"/>
+	</isomsg>
+	<AT>33</AT>
+	</log>
+	<log realm="WITHDRAWAL RESPONSE" at="Mon Dec 17 12:02:37 GMT+03:30 2018.233">
+	<MSG-ID>17</MSG-ID>
+	<CARD  NO.>5894631511409724</CARD  NO.>
+	<FROM>core</FROM>
+	<isomsg>
+	  <!-- com.pooya.packagers.ISO93DPPackager -->
+	  <field id="0" value="1210"/>
+	  <field id="2" value="5894631511409724"/>
+	  <field id="3" value="010000"/>
+	  <field id="4" value="000000500000"/>
+	  <field id="6" value="000000500000"/>
+	  <field id="7" value="1217083237"/>
+	  <field id="11" value="410586"/>
+	  <field id="12" value="181217120237"/>
+	  <field id="14" value="0000"/>
+	  <field id="18" value="6011"/>
+	  <field id="22" value="211401211244"/>
+	  <field id="24" value="200"/>
+	  <field id="32" value="000013"/>
+	  <field id="33" value="000013"/>
+	  <field id="35" value="5894631511409724=99105061710399300020"/>
+	  <field id="37" value="835112410586"/>
+	  <field id="38" value="000000"/>
+	  <field id="39" value="000"/>
+	  <field id="41" value="37095553"/>
+	  <field id="42" value="000001332100   "/>
+	  <field id="43" value="????             ???      THRIR00010015338333110888734430"/>
+	  <field id="48" value="P10092D230ADDC07BF68944A49A169AE18CE149BE416615435CD51F574GGC6CAD98EB072189DD6B511643FE21B921FAC92P13006410586SAT00200SAS0011D0101420181217120237"/>
+	  <field id="49" value="364"/>
+	  <field id="54" value="0001364C0002988749460002364C000298874946"/>
+	  <field id="102" value="4066963031"/>
+	</isomsg>
+	<AT>99</AT>
+	</log>
+	<log realm="doExternalResponsCode" at="Mon Dec 17 12:02:37 GMT+03:30 2018.241" lifespan="7ms">
+	  <DO EXTERNAL RESPONS CODE>
+	    <MSG-ID>17</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </DO EXTERNAL RESPONS CODE>
+	</log>
+	<log realm="updateCardActivity" at="Mon Dec 17 12:02:37 GMT+03:30 2018.246" lifespan="5ms">
+	  <UPDATE CARD ACTIVITY>
+	    <MSG-ID>17</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </UPDATE CARD ACTIVITY>
+	</log>
+	<log realm="SEND RESPONSE" at="Mon Dec 17 12:02:37 GMT+03:30 2018.250">
+	  <SEND RESPONSE>
+	    <MSG-ID>17</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	    <ATM OPCODE>ONUS WITHDRAWAL</ATM OPCODE>
+	    <NEXT OPCODE>-1</NEXT OPCODE>
+	    <RESPONSE CODE>0</RESPONSE CODE>
+	    <RESPONSE STREAM>4 .000..405.01000000.0586A105105.110.111+    110..P025;1.\@@.P2110.\.(7.[00m+    111..P007;1.\@@.P2111.\.(7.[00m.?02.(7.9001332.(1:.(7 \&JD >Q  \#M@ PZ#&...(7.4A">@'>[= ^@_S_'>Q  (J#C      A[@..(7.437095553.(7.1410586.(7.112.(1:.(702.(1:.(737.(7.11397.(1/.(709.(1/.(726..(1.1-----------------------------------..(7.?  (D">@& >_C@...(1.5****-****-****-.(79724.(1.2: .(7(@#Q \@#XD..(7.5835112410586       .(1.2: .(7I#,@" \@#XD..(7.5500 000            .(1.2: .(7(D">@&..(7.5298 874 946        .(1.2: .(7^JO"[ \>Z#X..(7.5298 874 946        .(1.2: .(7(D">@& T&#O \>Z#X..(7^@#&(J" ^#] (@#Q ^"@& \>D M@EX @#&(J" \>Z#X....(1.1-----------------------------------..(7.3@QD(#&..(7.7 #MGU ^X"@S ^@(DX..(7.7 >__#XZ #;X" "@Z" >_C@ \>]#DXA" C'..+1.(1.0========================================..(1.5WITHDRAWAL..(1.4DATE     HOUR       OP.      ATM..(1.01397/09/26  12:02:37  410586  37095553..(1.4CARD NBR.      : 5894631511409724  ..(1.4ACCOUNT NBR.   :   ..(1.4TRN. AMOUNT    : 500 000  ..(1.4TRN. NBR      : 410586  ..(1.4RESPONSE CODE  : 000  ..(1.0========================================..+0</RESPONSE STREAM>
+	    <AGE>110</AGE>
+	  </SEND RESPONSE>
+	</log>
+	<log realm="SWITCH TO NETWORK ndc-machine9005" at="Mon Dec 17 12:02:37 GMT+03:30 2018.251">
+	  <SENT MESSAGE>
+	    <MSG-ID>17</MSG-ID>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <isomsg direction="outgoing">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="TR"/>
+	      <field id="1" value="4 &#28;000&#28;&#28;405&#28;01000000&#28;0586A105105&#14;110&#14;111&#29;    110&#12;&#27;P025;1&#27;\&#15;@@&#27;P2110&#27;\&#27;(7&#27;[00m&#29;    111&#12;&#27;P007;1&#27;\&#15;@@&#27;P2111&#27;\&#27;(7&#27;[00m&#28;?02&#27;(7&#14;9001332&#27;(1:&#27;(7 \&amp;JD &gt;Q  \#M@ PZ#&amp;&#10;&#10;&#27;(7&#14;4A&quot;&gt;@'&gt;[= ^@_S_'&gt;Q  (J#C      A[@&#10;&#27;(7&#14;437095553&#27;(7&#14;1410586&#27;(7&#14;112&#27;(1:&#27;(702&#27;(1:&#27;(737&#27;(7&#14;11397&#27;(1/&#27;(709&#27;(1/&#27;(726&#10;&#27;(1&#14;1-----------------------------------&#10;&#27;(7&#14;?  (D&quot;&gt;@&amp; &gt;_C@&#10;&#10;&#27;(1&#14;5****-****-****-&#27;(79724&#27;(1&#14;2: &#27;(7(@#Q \@#XD&#10;&#27;(7&#14;5835112410586       &#27;(1&#14;2: &#27;(7I#,@&quot; \@#XD&#10;&#27;(7&#14;5500 000            &#27;(1&#14;2: &#27;(7(D&quot;&gt;@&amp;&#10;&#27;(7&#14;5298 874 946        &#27;(1&#14;2: &#27;(7^JO&quot;[ \&gt;Z#X&#10;&#27;(7&#14;5298 874 946        &#27;(1&#14;2: &#27;(7(D&quot;&gt;@&amp; T&amp;#O \&gt;Z#X&#10;&#27;(7^@#&amp;(J&quot; ^#] (@#Q ^&quot;@&amp; \&gt;D M@EX @#&amp;(J&quot; \&gt;Z#X&#10;&#10;&#10;&#27;(1&#14;1-----------------------------------&#10;&#27;(7&#14;3@QD(#&amp;&#10;&#27;(7&#14;7 #MGU ^X&quot;@S ^@(DX&#10;&#27;(7&#14;7 &gt;__#XZ #;X&quot; &quot;@Z&quot; &gt;_C@ \&gt;]#DXA&quot; C'&#10;&#12;&#29;1&#27;(1&#14;0========================================&#10;&#27;(1&#14;5WITHDRAWAL&#10;&#27;(1&#14;4DATE     HOUR       OP.      ATM&#10;&#27;(1&#14;01397/09/26  12:02:37  410586  37095553&#10;&#27;(1&#14;4CARD NBR.      : 5894631511409724  &#10;&#27;(1&#14;4ACCOUNT NBR.   :   &#10;&#27;(1&#14;4TRN. AMOUNT    : 500 000  &#10;&#27;(1&#14;4TRN. NBR      : 410586  &#10;&#27;(1&#14;4RESPONSE CODE  : 000  &#10;&#27;(1&#14;0========================================&#10;&#12;&#29;0"/>
+	    </isomsg>
+	  </SENT MESSAGE>
+	</log>
+	<log realm="ndc-machine9005 NETWORK TO SWITCH com.pooya.channel.NDCChannel" at="Mon Dec 17 12:02:48 GMT+03:30 2018.975">
+	  <COMMING  MESSAGE>
+	    <IP>10.74.5.2</IP>
+	    <TERMINAL>37095553</TERMINAL>
+	    <MESSAGE_WORDING>SOLICITED</MESSAGE_WORDING>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	  </COMMING  MESSAGE>
+	</log>
+	<log realm="RECEIVED NDC MESSAGE" at="Mon Dec 17 12:02:48 GMT+03:30 2018.975">
+	  <RECEIVED NDC MESSAGE>
+	    <OPERATION>SOL</OPERATION>
+	    <MSG-ID>17</MSG-ID>
+	    <isomsg direction="incoming">
+	      <!-- com.pooya.packagers.NdcPackager -->
+	      <field id="0" value="22"/>
+	      <field id="1" value="22&#28;000&#28;&#28;B"/>
+	    </isomsg>
+	    <REQUEST_STATE>READY FOR PROCESS</REQUEST_STATE>
+	  </RECEIVED NDC MESSAGE>
+	</log>
+	<log realm="COMPLETE_AUTHORIZATION" at="Mon Dec 17 12:02:48 GMT+03:30 2018.998" lifespan="5ms">
+	  <COMPLETE AUTHORIZATION>
+	    <MSG-ID>17</MSG-ID>
+	    <CARD  NO.>5894631511409724</CARD  NO.>
+	  </COMPLETE AUTHORIZATION>
+	</log>
+
+...

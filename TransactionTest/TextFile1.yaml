@@ -1,4 +1,62 @@
-﻿---
+﻿            Financial:
+                - Withdrawal
+                - Balance
+
+            Non-Financial:
+            
+            Complete:
+                - Balance
+                - Authentication
+
+            Condition:
+                - Incorrect_PIN
+                - Not_Enough_Cash
+
+            Before-Checking:
+                - Card_Status
+                - Terminal_Status
+                - Connection_Status
+
+            After-Checking:
+                - ATM_Cassettes
+                - Card_Activity
+                - Reduce_Balance
+
+            Reverse:
+                - Not_Withdrawal
+
+            Bad-Data:
+                - Amount
+                - PIN
+                - Track
+
+            Data-Parameters:
+                Cards:
+                    - Card_Number: 5894631862983396
+                      Card_Type: Refah
+                      Track: 5894631511409724=99105061710399300020
+                  
+                    - Card_Number: 5894631862983396
+                      Card_Type: Shetab
+                      Track: 5894631511409724=99105061710399300020
+
+                Amount: 200000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
             receipt:    Oz-Ware Purchase Invoice
             date:        2007-08-06
             customer:
