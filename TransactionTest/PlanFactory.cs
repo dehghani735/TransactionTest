@@ -9,69 +9,48 @@ namespace TransactionTest
     public class PlanFactory
     {
         private readonly Config _config;
-        private List<String> _flows;
-
+        private List<Plan> _plans; //TODO: I'm not sure if it should be here or not
+        
         public PlanFactory(Config config)
         {
             _config = config;
         }
 
-        public List<NDCTransactionRequestMessage> GenerateFlows()
+        public List<Plan> GeneratePlans()
         {
-            var list = new List<NDCTransactionRequestMessage>();
-            /*
-            private List<string> _financial;
-            private List<string> _nonFinancial;
-            private List<string> _complete;
-            private List<string> _condition;
-            private List<string> _beforeChecking;
-            private List<string> _afterChecking;
-            private List<string> _reverse;
-            private List<string> _badData;
-            private List<Card> _card;
-            private string _amount;
+            Console.WriteLine("===Start PlanFactory.GeneratePlans()===");
 
-            Console.WriteLine("Cards count: " + _config.Card[0].Track);
-            Console.WriteLine("**************************************************");
+            var plans = new List<Plan>();
 
-            foreach (var financial in _config.Financial)
-            {
-                Console.WriteLine(financial);
+            //TODO: generate the list of plans base on the config file
 
-                String a = "a";
-                String b = "b";
-                String c = "c";
+            var plan = new Plan();
+
+            foreach (string i in _config.Condition)
+                Console.WriteLine(i + " ");
+            Console.WriteLine("=====");
+            foreach (string i in _config.BadData)
+                Console.WriteLine(i + " ");
+            Console.WriteLine("=====");
+            foreach (string i in _config.Complete)
+                Console.WriteLine(i + " ");
+            Console.WriteLine("=====");
 
 
-                for (int i = 0; i < 3; i++)
-                {
-                }
-            }
+
+            /* TODO: temporary
+            plan.AddTransaction(new Balance());
+            plan.AddTransaction(new Withdrawal(_config));
+            plan.AddTransaction(new Balance());
             */
 
-
-            list.Add(new Balance());
-
-            list.Add(new Withdrawal(_config));
-
-            list.Add(new Balance());
-            return list;
+            plans.Add(plan);
+            return plans;
         }
 
         static void Main()
         {
-            var config = new Config();
-            config.ReadFile();
-            config.Parse();
-            Network nt = new Network(config.GetNetworkConfig());
-            var pf = new PlanFactory(config);
-            var list = pf.GenerateFlows();
-            foreach (var flow in list)
-            {
-                var msg = flow.getNDCTransactionRequestMessage();
-                Console.WriteLine(msg);
-            }
-            //pf.GenerateFlows();
+            
         }
     }
 }

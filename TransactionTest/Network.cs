@@ -11,14 +11,29 @@ namespace TransactionTest
 {
     public class Network
     {
-        string ServerIp { get; set; }
-        int PortNo { get; set; }
-        private object p;
+        private string _serverName;
+        private string _serverIp;
+        private int _portNo;
+
+        public string ServerName { get; set; }
+
+        public string ServerIp { get; set; }
+
+        public int PortNo
+        {
+            get { return _portNo; }
+            set { _portNo = value; }
+        }
 
         public Network(List<string> list)
         {
-            ServerIp = list[0];
-            PortNo = int.Parse(list[1]);
+          //  _serverIp = list[0];
+          //  _portNo = int.Parse(list[1]);
+        }
+
+        public Network()
+        {
+
         }
 
         public string SendAndReceive(string sendMessage)
@@ -45,7 +60,8 @@ namespace TransactionTest
             // previous: Encoding.ASCII.GetString(bytesToRead, 0, bytesRead)            Console.ReadLine();
             client.Close();
 
-            return Encoding.UTF8.GetString(bytesToRead, 0, bytesRead).ToString();
+            //previous: return Encoding.UTF8.GetString(bytesToRead, 0, bytesRead);
+            return "";
         }
 
         static void Main(string[] args)

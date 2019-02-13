@@ -8,25 +8,22 @@ namespace TransactionTest
 {
     class Test
     {
-        int TutorialID;
-        string TutorialName;
+        int _tutorialId;
+        string _tutorialName;
 
-        public void SetTutorial(int pID, string pName)
+        public void SetTutorial(int pId, string pName)
         {
-            TutorialID = pID;
-            TutorialName = pName;
+            _tutorialId = pId;
+            _tutorialName = pName;
         }
 
         public String GetTutorial()
         {
-            return TutorialName;
+            return _tutorialName;
         }
 
         static void Main()
         {
-            
         }
-
-
     }
 }

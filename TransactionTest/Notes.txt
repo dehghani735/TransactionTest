@@ -1,2 +1,5 @@
 ﻿Mr malek: Using Producer Consumer (Blocking Queue) or Async for processing flows; decide which one to use (probably blocking Q is better)
-Network (ip port. Send and Receive on client side)
+Network (ip port from yaml. Send and Receive on client side)
+generate flows
+report on result
+رمز اشتباه یعنی رمز رندم وارد شود.

@@ -24,6 +24,7 @@ namespace TransactionTest
         private List<string> _badData;
         private List<Card> _card;
         private string _amount;
+        private List<Network> _networks;
 
         public List<string> Financial
         {
@@ -75,6 +76,23 @@ namespace TransactionTest
             get { return _amount; }
         }
 
+        public List<Network> Networks
+        {
+            get { return _networks; }
+        }
+
+        public Network GetNetwork(string networkName)
+        {
+            foreach (var network in _networks)
+            {
+                if (network.ServerName.Equals(networkName))
+                {
+                    return network;
+                }
+            }
+            return null;
+        }
+
         public Config()
         {
             _financial = new List<string>();
@@ -87,6 +105,7 @@ namespace TransactionTest
             _badData = new List<string>();
             _card = new List<Card>();
             _amount = "0";
+            _networks = new List<Network>();
         }
 
         internal List<string> GetNetworkConfig()
@@ -205,6 +224,18 @@ namespace TransactionTest
             Console.WriteLine(amount);
 
             Console.WriteLine("====================");
+
+            var networks = (YamlSequenceNode) dataParameters.Children[new YamlScalarNode("Networks")];
+            foreach (YamlMappingNode data in networks)
+            {
+                var network = new Network();
+                network.ServerName = data.Children[new YamlScalarNode("Name")].ToString();
+                network.ServerIp = data.Children[new YamlScalarNode("ServerIP")].ToString();
+                network.PortNo = int.Parse(data.Children[new YamlScalarNode("Port")].ToString());
+                _networks.Add(network);
+            }
+
+            Console.WriteLine("====================");
         }
 
         static void Main()
@@ -212,7 +243,7 @@ namespace TransactionTest
             Config cf = new Config();
             cf.ReadFile();
             cf.Parse();
-            Console.WriteLine(cf.Card.Count);
+           // Console.WriteLine(cf.Card.Count);
         }
     }
 }

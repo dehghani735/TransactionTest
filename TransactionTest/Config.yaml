@@ -32,7 +32,7 @@ Bad-Data:
     - Track
 
 Data-Parameters:
-    Cards:
+     Cards: # Card_Number and Track are not the same
         - Card_Number: 5894631862983396
           Card_Type: Refah
           Track: 5894631511409724=99105061710399300020
@@ -41,6 +41,13 @@ Data-Parameters:
           Card_Type: Shetab
           Track: 5894631511409724=99105061710399300020
 
-    Amount: 200000
-    
+     Amount: 200000
+     Networks:
+        - Name: ATM
+          ServerIP: "10.15.1.61"
+          Port: "9009"
+
+        - Name: Shetab
+          ServerIP: "10.15.1.63"
+          Port: "9005"
 ...

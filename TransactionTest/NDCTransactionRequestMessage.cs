@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
-    public abstract class NDCTransactionRequestMessage
+    public abstract class NdcTransactionRequestMessage : Socket
     {
         private string _header = "11" + "\u001C" + "000" + "\u001C" + "\u001C" + "\u001C";
         private string _topOfReceiptTransactionFlag = "1";
@@ -114,9 +114,11 @@ namespace TransactionTest
             set { _lastTransactionStatusData = value; }
         }
 
-        public NDCTransactionRequestMessage()
+        public NdcTransactionRequestMessage()
         {
             _requestMessage = new StringBuilder();
+
+            //TODO: the below information must get from config 
             Track2Data = ";5894631511409724=99105061710399300020?";
             Track3Data = "";
             PinBufferA = "&gt;106&lt;?1&gt;82&lt;7&gt;9=2";
@@ -124,10 +126,13 @@ namespace TransactionTest
             LastTransactionStatusData = "";
         }
 
-        //public abstract void ali();
+        public override void Ali()
+        {
+            Console.WriteLine("ali");
+        }
 
 
-        public virtual string getNDCTransactionRequestMessage()
+        public override string GetNdcTransactionRequestMessage()
         {
             _requestMessage.Append(_header);
             _requestMessage.Append(_topOfReceiptTransactionFlag);
@@ -153,6 +158,14 @@ namespace TransactionTest
                 .Replace("&#28;", "\u001C")
                 .Replace("&gt;", "\u003E")
                 .Replace("&lt;", "\u003C");
+        }
+
+        public override void Process(Config config)
+        {
+            //TODO: a list of Msgs that form a flow to send
+            var msg = this.GetNdcTransactionRequestMessage();
+            this.Ali();
+            Console.WriteLine(config.GetNetwork("ATM").SendAndReceive(msg));
         }
 
         static void Main()
