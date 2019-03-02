@@ -6,24 +6,55 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
-    public class Plan
+    public abstract class Plan // TODO: as Command
     {
-        //field: list of transactions
-        private List<Transaction> _transactions;
+        private TransactionConfig _transactionConfig;
+        private string _description; // each plan has a description describing the purpose or condition of the plan
+        private List<Transaction> _transactions; // list of transactions
+        protected readonly Network _network;
 
-        public Plan()
+        public Plan(string description, Network network, TransactionConfig transactionConfig)
         {
+            _transactionConfig = transactionConfig;
+            _description = description;
             _transactions = new List<Transaction>();
+            _network = network;
+            // TODO: call CreateTransactions()
+            this.CreateTransactions();
+            this.ShowTransactions();
         }
-        
+
+        public string Description
+        {
+            get { return _description; }
+        }
+
         public List<Transaction> Transactions
         {
             get { return _transactions; }
         }
 
-        // process before; //TODO
+        public TransactionConfig TransactionConfig
+        {
+            get { return _transactionConfig; }
+        }
+    
+        // process before;
         // iterate in
-        // process after; //TODO
+        // process after; 
+
+        public abstract void CreateTransactions(); // factory method
+
+        public void ShowTransactions()
+        {
+            Console.Write(this.GetType().Name + " [" + Description + "] : ");
+
+            foreach (var transaction in Transactions)
+            {
+                Console.Write(transaction.GetType().Name + " | ");
+            }
+            Console.WriteLine("");
+        }
 
         public void AddTransaction(Transaction transaction)
         {
@@ -31,12 +62,17 @@ namespace TransactionTest
         }
 
         // to process the transactions of the plan
-        public void Process(Config config)
+        public string Process()
         {
+            var report = new StringBuilder();
+
+            report.Append(this.GetType().Name.PadRight(20) + " [" + Description.PadRight(40) + "] : \t\t");
+
             foreach (var transaction in _transactions)
             {
-                transaction.Process(config);
+                report.Append(transaction.Process(_network) + " | ");
             }
+            return report.ToString();
         }
     }
 }

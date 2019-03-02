@@ -8,7 +8,7 @@ namespace TransactionTest
 {
     public class Balance : NdcTransactionRequestMessage
     {
-        public Balance()
+        public Balance(TransactionConfig transactionConfig) : base(transactionConfig)
         {
             AmountEntryField = "000000000000";
             OperationCodeData = "AAAC   A";

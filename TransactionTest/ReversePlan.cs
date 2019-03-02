@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
-    class ReversePlan
+    public class ReversePlan : Plan
     {
+        public ReversePlan(string description, Network network, TransactionConfig transactionConfig) : base(description, network, transactionConfig)
+        {
+        }
+
+        public override void CreateTransactions()
+        {
+            //Console.WriteLine("===Start Plan.ReversePlan()===");
+            Transactions.Add(new Transfer(TransactionConfig));
+        }
     }
 }

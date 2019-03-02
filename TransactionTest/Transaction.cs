@@ -6,10 +6,24 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
-    public abstract class Transaction
+    public abstract class Transaction //: IStatus // TODO: as Receiver i think
     {
+        private TransactionConfig _transactionConfig;
+
+        public Transaction(TransactionConfig transactionConfig)
+        {
+            TransactionConfig = transactionConfig;
+        }
+
+        public TransactionConfig TransactionConfig
+        {
+            get { return _transactionConfig; }
+            set { _transactionConfig = value; }
+        }
+
         public abstract void Ali();
         
-        public abstract void Process(Config config);
+        public abstract string Process(Network network);
+
     }
 }

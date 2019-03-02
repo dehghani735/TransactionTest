@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
-    public class BeforeChecking : Plan
+    public class BeforeChecking// : Plan
     {
+        public BeforeChecking(string description, Network network)// : base(description, network)
+        {
+        }
+
+     /*   public override void CreateTransactions()
+        {
+            throw new NotImplementedException();
+        }
+        */
+
     }
 }

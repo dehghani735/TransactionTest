@@ -8,22 +8,28 @@ namespace TransactionTest
 {
     class Test
     {
-        int _tutorialId;
-        string _tutorialName;
+        public static int counter = 0;
+        public static List<string> flows = new List<string>();
 
-        public void SetTutorial(int pId, string pName)
+        public static void PrintTable(int n, string s)
         {
-            _tutorialId = pId;
-            _tutorialName = pName;
-        }
-
-        public String GetTutorial()
-        {
-            return _tutorialName;
+            if (n == 0)
+            {
+                Console.WriteLine(s);
+                flows.Add(s);
+                counter++;
+                return;
+            }
+            PrintTable(n - 1, s + " T");
+            PrintTable(n - 1, s + " F");
         }
 
         static void Main()
         {
+            string str = "";
+            PrintTable(4, str);
+            Console.WriteLine(counter + " " + flows.Count);
+
         }
     }
 }

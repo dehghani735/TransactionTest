@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
-    class CompletePlan
+    public class CompletePlan : Plan
     {
+        public CompletePlan(string description, Network network, TransactionConfig transactionConfig) : base(description, network, transactionConfig)
+        {
+        }
+
+        public override void CreateTransactions()
+        {
+            //Console.WriteLine("===Start Plan.CompletePlan()===");
+            Transactions.Add(new Balance(TransactionConfig));
+        }
+
     }
 }

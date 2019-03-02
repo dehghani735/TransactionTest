@@ -8,9 +8,10 @@ namespace TransactionTest
 {
     public class Withdrawal : NdcTransactionRequestMessage
     {
-        public Withdrawal(Config config) : base()
+        public Withdrawal(TransactionConfig transactionConfig) : base(transactionConfig)
         {
-            AmountEntryField = config.Amount.PadLeft(12, '0');
+            // AmountEntryField = config.Amount.PadLeft(12, '0');
+            AmountEntryField = transactionConfig.Amount.PadLeft(12, '0');
             OperationCodeData = "ADFI   A";
         }
         

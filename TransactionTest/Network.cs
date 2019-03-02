@@ -25,11 +25,11 @@ namespace TransactionTest
             set { _portNo = value; }
         }
 
-        public Network(List<string> list)
+        /*public Network(List<string> list)
         {
           //  _serverIp = list[0];
           //  _portNo = int.Parse(list[1]);
-        }
+        }*/
 
         public Network()
         {
@@ -56,12 +56,15 @@ namespace TransactionTest
             //---read back the text---
             byte[] bytesToRead = new byte[client.ReceiveBufferSize];
             int bytesRead = nwStream.Read(bytesToRead, 0, client.ReceiveBufferSize);
-            Console.WriteLine("Received : " + Encoding.UTF8.GetString(bytesToRead, 0, bytesRead));
+
+            // Console.WriteLine("Received : " + Encoding.UTF8.GetString(bytesToRead, 0, bytesRead));
+            string received = Encoding.UTF8.GetString(bytesToRead, 0, bytesRead);
+
             // previous: Encoding.ASCII.GetString(bytesToRead, 0, bytesRead)            Console.ReadLine();
             client.Close();
 
             //previous: return Encoding.UTF8.GetString(bytesToRead, 0, bytesRead);
-            return "";
+            return received;
         }
 
         static void Main(string[] args)

@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
-    public class File : Transaction
+    public class FFile : Transaction
     {
+        public FFile(TransactionConfig transactionConfig) : base(transactionConfig)
+        {
+            
+        }
+
         public override void Ali()
         {
             throw new NotImplementedException();
         }
 
-        public override void Process(Config config)
+        public override string Process(Network network)
         {
             throw new NotImplementedException();
         }

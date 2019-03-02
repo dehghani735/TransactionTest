@@ -8,12 +8,17 @@ namespace TransactionTest
 {
     public class DB : Transaction
     {
+        public DB(TransactionConfig transactionConfig) : base(transactionConfig)
+        {
+            
+        }
+
         public override void Ali()
         {
             throw new NotImplementedException();
         }
 
-        public override void Process(Config config)
+        public override string Process(Network network)
         {
             throw new NotImplementedException();
         }

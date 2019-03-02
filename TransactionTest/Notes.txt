@@ -3,3 +3,9 @@ Network (ip port from yaml. Send and Receive on client side)
 generate flows
 report on result
 رمز اشتباه یعنی رمز رندم وارد شود.
+
+
+
+
+اخرین اشکال 
+در فلوی آخری گیر می کند چون کارت رو بهش معرفی نکردم

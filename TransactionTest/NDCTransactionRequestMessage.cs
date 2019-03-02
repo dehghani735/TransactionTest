@@ -15,7 +15,6 @@ namespace TransactionTest
         private string _track3Data;
         private string _operationCodeData;
         private string _amountEntryField;
-        private string _pinBufferA;
         private string _generalPurposeBufferB;
         private string _generalPurposeBufferC;
         private string _track1Identifier;
@@ -72,11 +71,7 @@ namespace TransactionTest
             set { _amountEntryField = value; }
         }
 
-        public string PinBufferA
-        {
-            get { return _pinBufferA; }
-            set { _pinBufferA = value; }
-        }
+        public string PinBufferA { get; set; }
 
         public string GeneralPurposeBufferB
         {
@@ -114,15 +109,21 @@ namespace TransactionTest
             set { _lastTransactionStatusData = value; }
         }
 
-        public NdcTransactionRequestMessage()
+        public NdcTransactionRequestMessage(TransactionConfig transactionConfig) : base(transactionConfig)
         {
             _requestMessage = new StringBuilder();
 
             //TODO: the below information must get from config 
             Track2Data = ";5894631511409724=99105061710399300020?";
+            //Track2Data = transactionConfig.Card.Track;
+
             Track3Data = "";
+
             PinBufferA = "&gt;106&lt;?1&gt;82&lt;7&gt;9=2";
+            //PinBufferA = transactionConfig.Card.PinBufferA; // Contains a 16-character PIN, encrypted as specified in the FIT, for remote PIN verification.
+
             TransactionStatusDataIdentifier = "20000100000000000000000000";
+
             LastTransactionStatusData = "";
         }
 
@@ -130,7 +131,6 @@ namespace TransactionTest
         {
             Console.WriteLine("ali");
         }
-
 
         public override string GetNdcTransactionRequestMessage()
         {
@@ -146,7 +146,7 @@ namespace TransactionTest
             _requestMessage.Append("\u001C");
             _requestMessage.Append(_amountEntryField);
             _requestMessage.Append("\u001C");
-            _requestMessage.Append(_pinBufferA);
+            _requestMessage.Append(PinBufferA);
             _requestMessage.Append("\u001C");
             _requestMessage.Append("\u001C");
             _requestMessage.Append("\u001C");
@@ -160,12 +160,26 @@ namespace TransactionTest
                 .Replace("&lt;", "\u003C");
         }
 
-        public override void Process(Config config)
+        public override string Process(Network network)
         {
-            //TODO: a list of Msgs that form a flow to send
+            //TODO: a list of Msgs that form a Plan to send
             var msg = this.GetNdcTransactionRequestMessage();
-            this.Ali();
-            Console.WriteLine(config.GetNetwork("ATM").SendAndReceive(msg));
+
+            //this.Ali();
+
+            var received = ""; //network.SendAndReceive(msg); //TODO
+            Console.WriteLine("Received: " + received);
+
+            var replyCommand = new NDCTransactionReplyCommand(received);
+
+            if (replyCommand.parseReplyCommand())
+            {
+                return this.GetType().Name + " (Passed)";
+            }
+            else
+            {
+                return this.GetType().Name + " (Failed)";
+            }
         }
 
         static void Main()

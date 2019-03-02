@@ -8,6 +8,8 @@ namespace TransactionTest
 {
     public abstract class Socket : Transaction
     {
+        public Socket(TransactionConfig transactionConfig) : base(transactionConfig) { }
+
         public abstract string GetNdcTransactionRequestMessage();
     }
 }

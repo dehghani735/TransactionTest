@@ -12,6 +12,8 @@ namespace TransactionTest
 {
     public class Config
     {
+        // TODO: I think it should be singleton
+
         private YamlStream _file;
 
         private List<string> _financial;
@@ -93,6 +95,11 @@ namespace TransactionTest
             return null;
         }
 
+        /*internal List<string> GetNetworkConfig()
+        {
+            return new List<string>() { "10.15.1.61", "9009" };
+        }*/
+
         public Config()
         {
             _financial = new List<string>();
@@ -106,11 +113,6 @@ namespace TransactionTest
             _card = new List<Card>();
             _amount = "0";
             _networks = new List<Network>();
-        }
-
-        internal List<string> GetNetworkConfig()
-        {
-            return new List<string>() {"10.15.1.61", "9009"};
         }
 
         public void ReadFile()
@@ -209,6 +211,7 @@ namespace TransactionTest
                 card.CardNumber = data.Children[new YamlScalarNode("Card_Number")].ToString();
                 card.CardType = data.Children[new YamlScalarNode("Card_Type")].ToString();
                 card.Track = data.Children[new YamlScalarNode("Track")].ToString();
+                card.PinBufferA = data.Children[new YamlScalarNode("PinA")].ToString();
                 _card.Add(card);
             }
 

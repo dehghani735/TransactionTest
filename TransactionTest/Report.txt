@@ -1,0 +1,6 @@
+2019-03-02 11:20:54 AM
+2019-03-02 11:28:09 AM
+ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 

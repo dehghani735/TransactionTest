@@ -9,15 +9,19 @@ namespace TransactionTest
 {
     public class Card
     {
-        private string _cardNumber;
+        /*private string _cardNumber;
         private string _cardType;
         private string _track;
+        private string _pinBufferA; //TODO: should be here or not? 
+        */
 
         public string CardNumber { get; set; }
 
         public string CardType { get; set; }
 
         public string Track { get; set; }
+
+        public string PinBufferA { get; set; }
 
         static void Main()
         {
