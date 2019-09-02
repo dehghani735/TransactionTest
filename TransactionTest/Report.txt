@@ -4,3 +4,255 @@ ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Fai
 ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
 ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
 ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-03 11:58:24 AM
+ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-03 12:15:54 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-04 2:34:31 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-04 2:35:28 PM
+ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-04 2:36:18 PM
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-04 4:21:51 PM
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-06 3:47:17 PM
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 3:47:49 PM
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:29:22 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:33:41 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:38:58 PM
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:39:20 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:40:02 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:40:26 PM
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:41:04 PM
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:41:32 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-06 4:41:36 PM
+ConditionBasedPlan   [Incorrect Pin                           ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Not Enough Cash                         ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [All inputs are Correct                  ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Incorrect PIN and Not Enough Cash       ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-11 3:56:42 PM
+ConditionBasedPlan   [Correct_PIN !Enough_Cash                ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN !Enough_Cash               ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN Enough_Cash                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-11 4:01:47 PM
+ConditionBasedPlan   [Correct_PIN !Enough_Cash                ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN Enough_Cas                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN Enough_Cash                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN !Enough_Cash               ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-11 4:02:28 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cas                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN !Enough_Cash               ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN !Enough_Cash                ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN Enough_Cash                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-11 4:13:44 PM
+ConditionBasedPlan   [Correct_PIN !Enough_Cash                ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN !Enough_Cash               ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN Enough_Cas                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN Enough_Cash                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-11 5:04:21 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cas                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN !Enough_Cash                ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN Enough_Cash                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN !Enough_Cash               ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-11 5:04:35 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cas                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [!Correct_PIN !Enough_Cash               ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN !Enough_Cash                ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+ConditionBasedPlan   [Correct_PIN Enough_Cash                 ] : 		BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | WithdrawalException Occurred in Parsing NDCTransactionReplyCommand(Failed) | BalanceException Occurred in Parsing NDCTransactionReplyCommand(Failed) | 
+2019-03-11 5:05:31 PM
+2019-03-12 10:44:32 AM
+2019-03-12 10:52:09 AM
+2019-03-12 10:57:45 AM
+2019-03-12 11:00:54 AM
+2019-03-12 11:07:33 AM
+2019-03-12 11:40:18 AM
+2019-03-12 11:47:34 AM
+2019-03-12 11:57:43 AM
+2019-03-12 12:00:36 PM
+2019-03-12 12:27:57 PM
+2019-03-12 12:28:14 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Passed) | Balance (Passed) | 
+2019-03-13 10:44:11 AM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+2019-03-13 4:44:58 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-13 4:50:03 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-13 4:50:54 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-13 4:53:02 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-13 4:54:17 PM
+2019-03-13 4:56:15 PM
+2019-03-13 4:56:28 PM
+2019-03-13 5:12:53 PM
+2019-03-13 5:13:24 PM
+2019-03-13 5:13:32 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-13 5:30:40 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-13 5:30:58 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-13 5:31:33 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (PassedB) | Withdrawal (Failed) | Balance (PassedB) | 
+2019-03-13 5:33:04 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-18 4:14:40 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-18 4:18:41 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-18 4:21:09 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-18 4:22:58 PM
+ConditionBasedPlan   [!Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-18 4:33:35 PM
+2019-03-18 4:36:23 PM
+2019-03-18 4:49:23 PM
+ConditionBasedPlan   [~Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-19 9:34:04 AM
+2019-03-19 9:45:56 AM
+2019-03-19 10:33:47 AM
+2019-03-19 4:48:51 PM
+2019-03-19 4:49:37 PM
+2019-03-19 4:53:22 PM
+2019-03-30 3:24:35 PM
+2019-03-30 3:37:15 PM
+2019-03-30 5:22:41 PM
+2019-03-31 11:34:49 AM
+ConditionBasedPlan   [~Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-31 1:41:42 PM
+2019-03-31 4:57:59 PM
+2019-03-31 5:17:17 PM
+ConditionBasedPlan   [~Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-03-31 5:17:43 PM
+ConditionBasedPlan   [~Correct_PIN Enough_Cash                ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-12 2:18:29 PM
+2019-04-12 3:02:45 PM
+2019-04-12 3:03:20 PM
+2019-04-12 4:47:55 PM
+2019-04-12 4:48:15 PM
+2019-04-12 4:55:09 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN Amount           ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Amount         ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-12 4:55:32 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN Amount           ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Amount         ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-12 5:06:04 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Amount         ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Amount           ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-12 5:35:59 PM
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Amount         ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Amount           ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-12 5:36:45 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Amount         ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Amount           ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-13 9:05:37 AM
+ConditionBasedPlan   [Withdrawal,Correct_PIN Amount           ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Amount          ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Amount         ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-15 4:13:24 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-15 4:22:18 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-04-15 4:22:30 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-08-26 12:14:03 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+2019-08-29 5:03:27 PM
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash ~Amount ] : 		Balance (Passed) | Withdrawal (Failed) | Balance (Passed) | 

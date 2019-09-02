@@ -27,6 +27,20 @@ namespace TransactionTest
         private List<Card> _card;
         private string _amount;
         private List<Network> _networks;
+        public List<string> _expectedResultNames;
+
+        //public Dictionary<HashSet<string>, ExpectedResult> _expectedResults;
+
+        public List<Object> _expectedResultList;
+
+        //private List<Network> _G;
+        // private List<Network> _networks;
+        //private 
+
+        public List<Object> ExpectedResultList
+        {
+            get { return _expectedResultList; }
+        }
 
         public List<string> Financial
         {
@@ -83,6 +97,11 @@ namespace TransactionTest
             get { return _networks; }
         }
 
+        public List<string> ExpectedResultNames
+        {
+            get { return _expectedResultNames; }
+        }
+
         public Network GetNetwork(string networkName)
         {
             foreach (var network in _networks)
@@ -113,6 +132,11 @@ namespace TransactionTest
             _card = new List<Card>();
             _amount = "0";
             _networks = new List<Network>();
+            _expectedResultNames = new List<string>();
+
+            // _expectedResults = new Dictionary<HashSet<string>, ExpectedResult>(HashSet<string>.CreateSetComparer());
+
+            _expectedResultList = new List<Object>();
         }
 
         public void ReadFile()
@@ -239,6 +263,77 @@ namespace TransactionTest
             }
 
             Console.WriteLine("====================");
+
+            _expectedResultNames.Add("General");
+            foreach (var tran in _financial)
+            {
+                _expectedResultNames.Add(tran);
+            }
+            foreach (var tran in _complete)
+            {
+                _expectedResultNames.Add(tran);
+            }
+            foreach (var tran in _nonFinancial)
+            {
+                _expectedResultNames.Add(tran);
+            }
+
+            var expectedResult = (YamlSequenceNode) mapping.Children[new YamlScalarNode("Expected-Results")];
+            foreach (var tran in _expectedResultNames)
+            {
+                Dictionary<HashSet<string>, ExpectedResult> _expectedResults =
+                    new Dictionary<HashSet<string>, ExpectedResult>(HashSet<string>.CreateSetComparer());
+
+                foreach (YamlMappingNode data in expectedResult)
+                {
+                    if (data.Children[new YamlScalarNode("Category")].ToString().Equals(tran))
+                    {
+                        string[] conditionList =
+                            CreateConditionList(data.Children[new YamlScalarNode("Condition")].ToString());
+
+                        foreach (var condition in conditionList)
+                        {
+                            ExpectedResult expected = new ExpectedResult();
+                            expected.Category = data.Children[new YamlScalarNode("Category")].ToString();
+                            //Console.WriteLine("mdtmdt" + data.Children[new Yaml("Condition")].ToString());
+                            //expected.Condition = data.Children[new YamlScalarNode("Condition")].ToString();
+                            expected.State = data.Children[new YamlScalarNode("State")].ToString();
+                            expected.Screen = data.Children[new YamlScalarNode("Screen")].ToString();
+                            expected.Text = data.Children[new YamlScalarNode("Text")].ToString();
+                            expected.Journal = data.Children[new YamlScalarNode("Journal")].ToString();
+                            try
+                            {
+                                _expectedResults.Add(CreateConditionSet(condition), expected);
+                            }
+                            catch (Exception)
+                            {
+                                Console.WriteLine("Duplicate Expected Result found!!!");
+                            }
+                        }
+                    }
+                }
+                _expectedResultList.Add(_expectedResults);
+            }
+        }
+
+        private HashSet<string> CreateConditionSet(string condition)
+        {
+            condition = condition.TrimStart(' ');
+
+            HashSet<string> result = new HashSet<string>();
+
+            string[] conditions = condition.Split(' ');
+            foreach (var cdn in conditions)
+            {
+                result.Add(cdn);
+            }
+            return result;
+        }
+
+        private string[] CreateConditionList(string conditionString)
+        {
+            string str = conditionString.TrimEnd(']').TrimStart('[').TrimStart(' ').TrimEnd(' ');
+            return str.Split(',');
         }
 
         static void Main()
@@ -246,7 +341,7 @@ namespace TransactionTest
             Config cf = new Config();
             cf.ReadFile();
             cf.Parse();
-           // Console.WriteLine(cf.Card.Count);
+            // Console.WriteLine(cf.Card.Count);
         }
     }
 }

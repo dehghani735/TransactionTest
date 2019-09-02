@@ -1,95 +1,123 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Dynamic;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.Remoting;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using C1.Win.C1Input;
+
+//using NUnit.Framework.Interfaces;
 
 namespace TransactionTest
 {
-    public class PlanFactory  // TODO: as invoker
+    public class PlanFactory // TODO: as invoker
     {
         private readonly Config _config;
-
-        private List<string> _flows = new List<string>();
-
-        private BlockingCollection<Plan> _plans = new BlockingCollection<Plan>();
+        private List<string> _bools = new List<string>();
+        private List<Plan> _plans = new List<Plan>();
         //private List<Plan> _plans;
+
+        // -----
+
+        private List<BackgroundWorker> _workers = new List<BackgroundWorker>();
+        private List<List<Plan>> _plansList = new List<List<Plan>>();
+
+        private int total_workers = 4;
+        private int completed_workers = 0;
+
+        private List<Plan> _plan1 = new List<Plan>();
+        private List<Plan> _plan2 = new List<Plan>();
+        private List<Plan> _plan3 = new List<Plan>();
+        private List<Plan> _plan4 = new List<Plan>();
 
         public PlanFactory(Config config)
         {
             _config = config;
         }
 
-        public void PrintTable(int n, string s)
+        public void CreateTruthTable(int n, string s)
         {
             if (n == 0)
             {
                 Console.WriteLine(s);
-                _flows.Add(s);
+                _bools.Add(s);
                 //counter++;
                 return;
             }
-            PrintTable(n - 1, s + "T");
-            PrintTable(n - 1, s + "F");
+            CreateTruthTable(n - 1, s + "T");
+            CreateTruthTable(n - 1, s + "F");
         }
 
-        public void GeneratePlans()
+        public List<string> GenerateConditionStrings(List<string> conditionList)
         {
-            Console.WriteLine("===Start PlanFactory.GeneratePlans()===");
-            string s = "";
-            PrintTable(_config.Condition.Count, s);
-            Console.WriteLine(_flows.Count);
+            _bools.Clear(); // TODO is it OK?
 
+            //CreateTruthTable(_config.Condition.Count, ""); //TODO delete
+            CreateTruthTable(conditionList.Count, "");
+            //Console.WriteLine(_bools.Count); // TODO delete
             var result = new List<string>();
-
-            foreach (var flow in _flows)
+            foreach (var bul in _bools)
             {
                 var newFlow = new StringBuilder();
-
-                for (int i = 0; i < flow.Length; i++)
+                for (int i = 0; i < bul.Length; i++)
                 {
-                    if (flow[i] == 'T')
+                    if (bul[i] == 'T')
                     {
-                        newFlow.Append(_config.Condition[i] + " ");
-
-                        Console.WriteLine(_config.Condition[i]);
+                        //newFlow.Append(_config.Condition[i] + " "); //TODO delete
+                        //Console.WriteLine(_config.Condition[i]);    //TODO delete
+                        newFlow.Append(conditionList[i] + " ");
+                        Console.WriteLine(conditionList[i]);
                     }
                     else
                     {
-                        newFlow.Append("!" + _config.Condition[i] + " ");
-                        Console.WriteLine("!" + _config.Condition[i]);
+                        //newFlow.Append("~" + _config.Condition[i] + " "); //TODO delete
+                        //Console.WriteLine("~" + _config.Condition[i]);    //TODO delete
+                        newFlow.Append("~" + conditionList[i] + " ");
+                        Console.WriteLine("~" + conditionList[i]);
                     }
                 }
                 result.Add(newFlow.ToString());
                 Console.WriteLine("+++++++++++++++++++++");
             }
+            return result;
+        }
 
-            foreach (var str in result)
-            {
-                Console.WriteLine(str);
-            }
+        public void GeneratePlans()
+        {
+            Console.WriteLine("===Start PlanFactory.GeneratePlans()===");
 
             //_plans = new List<Plan>();
 
             //TODO: generate the list of plans base on the config file
-            
+
+            /**
+             * expectedResultCollection: the first element would be the list of the names of the transactions for expected result
+             *                           the second element would be the list of condition as key of dictionary and expected result as value
+             */
+            var expectedResultCollection = new List<Object>();
+            expectedResultCollection.Add(_config.ExpectedResultNames);
+            expectedResultCollection.Add(_config.ExpectedResultList);
+
             // Condition-based plans
             foreach (var financial in _config.Financial)
             {
-                if (financial.Equals("Withdrawal", StringComparison.InvariantCultureIgnoreCase))
+                // return the confluence(eshterak) of active conditions of the specific transaction and condition part of the config yaml file
+                var activeConditions = GetActiveConditions(financial);
+                var conditionsStrings = GenerateConditionStrings(activeConditions);
+
+                // now conditionsStrings is the strings of different real conditions
+                foreach (var condition in conditionsStrings)
                 {
-                    if (_config.Condition.Contains("Incorrect_PIN", StringComparer.InvariantCultureIgnoreCase))
-                        _plans.Add(new ConditionBasedPlan("Incorrect Pin", _config.GetNetwork("ATM"), new TransactionConfig(_config.Card[0], "1111")));
+                    var transactionConfig = new TransactionConfig(_config.Amount, _config.BadData, _config.Card[0]);
 
-                    if (_config.Condition.Contains("Not_Enough_Cash", StringComparer.InvariantCultureIgnoreCase))
-                        _plans.Add(new ConditionBasedPlan("Not Enough Cash", _config.GetNetwork("ATM"), new TransactionConfig(_config.Card[0])));
-
-                    if (_config.Condition.Contains("Incorrect_PIN", StringComparer.InvariantCultureIgnoreCase) && _config.Condition.Contains("Not_Enough_Cash", StringComparer.InvariantCultureIgnoreCase))
-                        _plans.Add(new ConditionBasedPlan("Incorrect PIN and Not Enough Cash", _config.GetNetwork("ATM"), new TransactionConfig(_config.Card[0], "1111")));
-
-                    _plans.Add(new ConditionBasedPlan("All inputs are Correct", _config.GetNetwork("ATM"), new TransactionConfig(_config.Card[0])));
+                    _plans.Add(new ConditionBasedPlan(financial + "," + condition, expectedResultCollection,
+                        _config.GetNetwork("ATM"), transactionConfig));
                 }
             }
             /*
@@ -134,23 +162,112 @@ namespace TransactionTest
                 }
             }
             */
+
+            for (int i = 0; i < _plans.Count; i++)
+            {
+                if (i%4 == 0)
+                {
+                    _plan1.Add(_plans[i]);
+                }
+                else if (i%4 == 1)
+                {
+                    _plan2.Add(_plans[i]);
+                }
+                else if (i%4 == 2)
+                {
+                    _plan3.Add(_plans[i]);
+                }
+                else if (i%4 == 3)
+                {
+                    _plan4.Add(_plans[i]);
+                }
+            }
+
+            Console.WriteLine("plans: " + _plans.Count);
+            Console.WriteLine("plan1: " + _plan1.Count);
+            Console.WriteLine("plan2: " + _plan2.Count);
+            Console.WriteLine("plan3: " + _plan3.Count);
+            Console.WriteLine("plan4: " + _plan4.Count);
+
+            _plansList.Add(_plan1);
+            _plansList.Add(_plan2);
+            _plansList.Add(_plan3);
+            _plansList.Add(_plan4);
         }
 
-        static void Main()
+        private List<string> GetActiveConditions(string financial)
         {
+            var result = new List<string>();
 
+            string transactionToCheckStatics = "TransactionTest." + financial;
+
+            var objectType = Type.GetType(transactionToCheckStatics);
+            //Console.WriteLine("==>: " + objectType.GetField("CardNumber"));
+            var instantiatedObject = Activator.CreateInstance(objectType);
+
+            var Correct_PIN =
+                (bool) objectType.InvokeMember("isCorrect_PIN", BindingFlags.GetField, null, instantiatedObject, null);
+            var Enough_Cash =
+                (bool) objectType.InvokeMember("isEnough_Cash", BindingFlags.GetField, null, instantiatedObject, null);
+            var Amount =
+                (bool) objectType.InvokeMember("isAmount", BindingFlags.GetField, null, instantiatedObject, null);
+            // TODO: add conditions continuously during system change
+
+            Dictionary<string, bool> staticConditions = new Dictionary<string, bool>();
+
+            staticConditions.Add(nameof(Correct_PIN), Correct_PIN);
+            staticConditions.Add(nameof(Enough_Cash), Enough_Cash);
+            staticConditions.Add(nameof(Amount), Amount);
+            // TODO: add conditions continuously during system change
+
+
+            foreach (var cnd in _config.Condition)
+            {
+                if (staticConditions[cnd])
+                {
+                    result.Add(cnd);
+                }
+            }
+            return result;
+        }
+
+        private void bg_DoWork(object sender, DoWorkEventArgs e)
+        {
+            Console.WriteLine("thread started!");
+
+            List<Plan> _plns = (List<Plan>) e.Argument;
+            foreach (var pln in _plns)
+            {
+                Reporter.Log(pln.Process());
+            }
+        }
+
+        private void bg_runWorker_Completed(object sender, RunWorkerCompletedEventArgs e)
+        {
+            completed_workers++;
         }
 
         public void ProcessPendingPlans()
         {
             Console.WriteLine("start pending!");
 
-            Parallel.ForEach(_plans, plan =>
-                {
-                    Reporter.Log(plan.Process());
+            for (int i = 0; i < 4; i++)
+            {
+                BackgroundWorker bw = new BackgroundWorker();
+                _workers.Add(bw);
+                _workers[i].DoWork += bg_DoWork;
+                _workers[i].RunWorkerCompleted += bg_runWorker_Completed;
+                _workers[i].RunWorkerAsync(_plansList[i]);
+            }
 
-                }
-            );
+            while (total_workers != completed_workers)
+                Thread.Sleep(1000);
+
+            /*Parallel.ForEach(_plans, plan =>
+            {
+                Reporter.Log(plan.Process());
+            });
+            */
 
             // Thread th = new Thread(new ThreadStart());
             // th.Start();
@@ -163,6 +280,67 @@ namespace TransactionTest
                 //Thread.Sleep(5000);
                 //System.Threading.Thread.Sleep(4000);
             }*/
+        }
+
+
+        static void Main()
+        {
+            /*
+            Console.WriteLine("salam");
+
+            HashSet<string> a = new HashSet<string> {"correctpi", "enoughcash", "amount"};
+            HashSet<string> b = new HashSet<string> {"enoughcash", "correctpin", "amount"};
+
+            HashSet<string> c = new HashSet<string> {"enoughcash", "amount", "correctpin"};
+
+
+            var yyy = new Dictionary<HashSet<string>, string>(HashSet<string>.CreateSetComparer());
+
+            yyy.Add(a, "ali");
+            yyy.Add(b, "mammad");
+
+            if (a.Contains("!correctpi"))
+            {
+                Console.WriteLine("exist");
+            }
+
+            Console.WriteLine(yyy[c]);
+
+            var arr = new ArrayList();
+            arr.Add(yyy);
+            arr.Add(yyy);
+            arr.Add(yyy);
+            */
+
+
+            //string dog = "Balance";
+            //var dogObj = Activator.CreateInstance(Type.GetType(dog)) as NdcTransactionRequestMessage;
+            //string cat = "Cat";
+            //var catObj = Activator.CreateInstance(Type.GetType(cat)) as Animal;
+            //Console.WriteLine(dogObj);
+            //Console.WriteLine(catObj);
+
+            // object obj = ((ObjectHandle)Activator.CreateInstance(null, "Balance"));
+            //Type type = obj.GetType();
+            //type.GetProperty("Name").SetValue(obj, "Hello World", null);
+            //string personName = type.GetProperty("Name").GetValue(obj, null).ToString();
+
+
+            const string objectToInstantiate = "TransactionTest.Balance";
+
+            var objectType = Type.GetType(objectToInstantiate);
+            //Console.WriteLine("==>: " + objectType.GetField("CardNumber"));
+            var instantiatedObject = Activator.CreateInstance(objectType);
+
+            TransactionConfig tf = new TransactionConfig(new Card());
+            //tf.Amount = "555";
+
+            //classType.InvokeMember("Sub", BindingFlags.InvokeMethod, null, instance, new object[] { 23, 42 });
+            Console.WriteLine(objectType.InvokeMember("fff", BindingFlags.InvokeMethod, null, instantiatedObject,
+                new object[] {tf}));
+            //Console.WriteLine(objectType.InvokeMember());
+
+            Console.WriteLine(instantiatedObject.ToString());
         }
     }
 }

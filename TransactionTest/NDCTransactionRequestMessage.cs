@@ -127,6 +127,13 @@ namespace TransactionTest
             LastTransactionStatusData = "";
         }
 
+        public NdcTransactionRequestMessage()
+        {
+            // added 980123 ( after changes)
+            _requestMessage = new StringBuilder();
+
+        }
+
         public override void Ali()
         {
             Console.WriteLine("ali");
@@ -162,7 +169,9 @@ namespace TransactionTest
 
         public override string Process(Network network)
         {
+            /*
             //TODO: a list of Msgs that form a Plan to send
+            
             var msg = this.GetNdcTransactionRequestMessage();
 
             //this.Ali();
@@ -174,12 +183,20 @@ namespace TransactionTest
 
             if (replyCommand.parseReplyCommand())
             {
-                return this.GetType().Name + " (Passed)";
+                //TODO
+                if (replyCommand.Equals(this.TransactionConfig.ExpectedResult))
+                {
+                    return this.GetType().Name + " (Passed)";
+                }
+                return this.GetType().Name + " (Failed)";
             }
             else
             {
-                return this.GetType().Name + " (Failed)";
+                return this.GetType().Name + "Exception Occurred in Parsing NDCTransactionReplyCommand(Failed)";
             }
+            */
+
+            return null;
         }
 
         static void Main()

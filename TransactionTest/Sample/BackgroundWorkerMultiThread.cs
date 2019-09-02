@@ -44,7 +44,6 @@ namespace TransactionTest
             _list.Add(l2);
             _list.Add(l3);
             _list.Add(l4);
-
         }
 
         private void Process()

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using NUnit.Framework.Internal;
+//using NUnit.Framework.Internal;
 
 namespace TransactionTest
 {
@@ -24,7 +24,6 @@ namespace TransactionTest
             Reporter.Log(System.DateTime.Now.ToString());
 
             planFactory.ProcessPendingPlans();
-
         }
     }
 }

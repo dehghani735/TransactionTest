@@ -5,7 +5,8 @@ report on result
 رمز اشتباه یعنی رمز رندم وارد شود.
 
 
-
-
 اخرین اشکال 
-در فلوی آخری گیر می کند چون کارت رو بهش معرفی نکردم
+
+
+// TODO 980123 i think i can make ExpectedResultcollection in the plan class singleton, not each plan have one of them due to memory usage. one instance 
+// is sufficient

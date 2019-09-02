@@ -37,13 +37,14 @@ namespace TransactionTest
         public NDCTransactionReplyCommand(String replyCommand)
         {
             ReplyCommand = replyCommand;
+
+            //this.parseReplyCommand();
         }
 
         // true if parsing is completed successfully; false otherwise
         public bool parseReplyCommand()
         {
             var parts = ReplyCommand.Split('\u001C');
-
             try
             {
                 Console.WriteLine("part[0]: " + parts[0]);
@@ -78,7 +79,56 @@ namespace TransactionTest
             }
             catch (Exception exp)
             {
+                return true; //TODO: temporarily set to true; set it to false
+            }
+        }
+
+        public override bool Equals(Object obj)
+        {
+            //TODO: I can use "template design pattern" here; devide this method into 4 steps including checkState, checkScreen, checkReceipt and checkJournal
+            //TODO  each of which can be implemented in subclasses for specific Equality
+            
+            //Check for null and compare run-time types.
+            if ((obj == null) || !obj.GetType().Name.Equals("ExpectedResult"))
+            {
                 return false;
+            }
+            else
+            {
+                var expectedResult = (ExpectedResult) obj;
+
+                if (!expectedResult.State.Equals(this.NextState)) // suppose that state must be available in yaml config
+                {
+                    return false;
+                }
+
+                if (!string.IsNullOrEmpty(expectedResult.Screen))
+                {
+                    if (!expectedResult.Screen.Equals(this.ScreenNumber))
+                    {
+                        return false;
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(expectedResult.Text))
+                {
+                    if (!expectedResult.Text.Equals(this.ScreenDisplayUpdate))
+                    {
+                        return false;
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(expectedResult.Journal))
+                {
+                    if (!expectedResult.Journal.Equals(this.JPrinterDataField))
+                    {
+                        return false;
+                    }
+                }
+
+                // TODO complete Receipt and Journal
+
+                return true;
             }
         }
     }

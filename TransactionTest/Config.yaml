@@ -10,8 +10,8 @@ Complete:
     - Authentication
 
 Condition:
-    - Incorrect_PIN
-    - Not_Enough_Cash
+    - Correct_PIN
+    - Enough_Cash
     - Amount
 
 Before-Checking:
@@ -53,4 +53,47 @@ Data-Parameters:
         - Name: Shetab
           ServerIP: "10.15.1.63"
           Port: "9005"
+  
+Expected-Results:
+     - Category: General
+       Condition: Incorrect_PIN Not_Enough_Cash Amount, Name Shetab ffdf, fdfdfd ddfdfd amme
+       State: 112
+       Screen: 888
+       Text: ali
+       Journal: vvv
+
+     - Category: General
+       Condition: Correct_PIN Amount, ~Correct_PIN Amount
+       State: 226
+       Screen: 226
+       Text: Mohammadreza DehghaniTafti
+       Journal: Mohammadreza DehghaniTafti
+
+     - Category: General
+       Condition: Correct_PIN ~Amount, ~Correct_PIN ~Amount
+       State: 555
+       Screen: 555
+       Text: Matia
+       Journal: Perin
+
+     - Category: General
+       Condition: ~Correct_PIN Enough_Cash
+       State: 112
+       Screen: 888
+       Text: cr7
+       Journal: dybala
+
+     - Category: Balance
+       Condition: [~Correct_PIN Enough_Cash]
+       State: 112
+       Screen: 888
+       Text: bonucci
+       Journal: leo
+
+     - Category: General
+       Condition: [Incorrect_PIN]
+       State: 112
+       Screen: 888
+       Text: mdt
+       Journal: vvv
 ...

@@ -8,7 +8,7 @@ namespace TransactionTest
 {
     public class CompletePlan : Plan
     {
-        public CompletePlan(string description, Network network, TransactionConfig transactionConfig) : base(description, network, transactionConfig)
+        public CompletePlan(string description, List<Object> expectedResultCollection, Network network, TransactionConfig transactionConfig) : base(description, expectedResultCollection, network, transactionConfig)
         {
         }
 
@@ -17,6 +17,5 @@ namespace TransactionTest
             //Console.WriteLine("===Start Plan.CompletePlan()===");
             Transactions.Add(new Balance(TransactionConfig));
         }
-
     }
 }

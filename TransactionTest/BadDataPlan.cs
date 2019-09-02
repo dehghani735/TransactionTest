@@ -8,7 +8,7 @@ namespace TransactionTest
 {
     public class BadDataPlan : Plan
     {
-        public BadDataPlan(string description, Network network, TransactionConfig transactionConfig) : base(description, network, transactionConfig)
+        public BadDataPlan(string description, List<Object> expectedResultCollection, Network network, TransactionConfig transactionConfig) : base(description, expectedResultCollection, network, transactionConfig)
         {
         }
 

@@ -10,15 +10,16 @@ namespace TransactionTest
     {
         private TransactionConfig _transactionConfig;
         private string _description; // each plan has a description describing the purpose or condition of the plan
-        private List<Transaction> _transactions; // list of transactions
         protected readonly Network _network;
+        private List<Object> _expectedResultCollection;
 
-        public Plan(string description, Network network, TransactionConfig transactionConfig)
+        public Plan(string description, List<Object> expectedResultCollection, Network network, TransactionConfig transactionConfig)
         {
             _transactionConfig = transactionConfig;
             _description = description;
-            _transactions = new List<Transaction>();
+            Transactions = new List<Transaction>();
             _network = network;
+            _expectedResultCollection = expectedResultCollection;
             // TODO: call CreateTransactions()
             this.CreateTransactions();
             this.ShowTransactions();
@@ -29,9 +30,11 @@ namespace TransactionTest
             get { return _description; }
         }
 
-        public List<Transaction> Transactions
+        public List<Transaction> Transactions { get; }
+
+        public List<Object> ExpectedResultCollection
         {
-            get { return _transactions; }
+            get { return _expectedResultCollection; }
         }
 
         public TransactionConfig TransactionConfig
@@ -58,7 +61,7 @@ namespace TransactionTest
 
         public void AddTransaction(Transaction transaction)
         {
-            _transactions.Add(transaction);
+            Transactions.Add(transaction);
         }
 
         // to process the transactions of the plan
@@ -68,7 +71,7 @@ namespace TransactionTest
 
             report.Append(this.GetType().Name.PadRight(20) + " [" + Description.PadRight(40) + "] : \t\t");
 
-            foreach (var transaction in _transactions)
+            foreach (var transaction in Transactions)
             {
                 report.Append(transaction.Process(_network) + " | ");
             }

@@ -15,6 +15,8 @@ namespace TransactionTest
             TransactionConfig = transactionConfig;
         }
 
+        public Transaction() { }
+
         public TransactionConfig TransactionConfig
         {
             get { return _transactionConfig; }

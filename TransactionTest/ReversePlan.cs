@@ -8,7 +8,7 @@ namespace TransactionTest
 {
     public class ReversePlan : Plan
     {
-        public ReversePlan(string description, Network network, TransactionConfig transactionConfig) : base(description, network, transactionConfig)
+        public ReversePlan(string description, List<Object> expectedResultCollection, Network network, TransactionConfig transactionConfig) : base(description, expectedResultCollection, network, transactionConfig)
         {
         }
 

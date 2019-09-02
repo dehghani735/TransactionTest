@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
+    [Serializable]
     public class Card
     {
         /*private string _cardNumber;
@@ -15,6 +16,14 @@ namespace TransactionTest
         private string _pinBufferA; //TODO: should be here or not? 
         */
 
+        public Card()
+        {
+            CardNumber = "5894631899999999";
+            CardType = "ddd";
+            Track = "ffffff";
+        }
+
+
         public string CardNumber { get; set; }
 
         public string CardType { get; set; }
@@ -22,6 +31,11 @@ namespace TransactionTest
         public string Track { get; set; }
 
         public string PinBufferA { get; set; }
+
+        public string Sub()
+        {
+            return CardNumber;
+        }
 
         static void Main()
         {
