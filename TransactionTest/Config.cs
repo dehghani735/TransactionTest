@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -144,7 +144,7 @@ namespace TransactionTest
             using (
                 var input =
                     new StreamReader(
-                        @"C:\\Users\\m.dehghani\\source\\repos\\TransactionTest\\TransactionTest\\Config.yaml"))
+                        @"C:\\Users\\MDT\\Source\\Repos\\mdt\\TransactionTest\\TransactionTest\\Config.yaml"))
             {
                 // Load the stream
                 _file = new YamlStream();

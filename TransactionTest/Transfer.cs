@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,7 +43,7 @@ namespace TransactionTest
             //TODO: a list of Msgs that form a Plan to send
             var msg = this.GetNdcTransactionRequestMessage();
 
-            var received = network.SendAndReceive(msg); //"" //TODO 
+      var received = "";// network.SendAndReceive(msg); //"" //TODO 
             Console.WriteLine("Received: " + received);
 
             var replyCommand = new ReplyTransfer(received);

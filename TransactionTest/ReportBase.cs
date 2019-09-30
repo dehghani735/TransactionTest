@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,7 +14,7 @@ namespace TransactionTest
 
     public class FileReporter : ReportBase
     {
-        public string filePath = @"C:\Users\m.dehghani\source\repos\TransactionTest\TransactionTest\Report.txt";
+        public string filePath = @"C:\\Users\\MDT\\Source\\Repos\\mdt\\TransactionTest\\TransactionTest\\Report.txt";
 
         public override void Log(string log)
         {
