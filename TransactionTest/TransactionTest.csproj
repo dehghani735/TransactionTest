@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AfterChecking.cs" />
+    <Compile Include="ReplyTransfer.cs" />
     <Compile Include="Sample\BackgroundWorkerMultiThread.cs" />
     <Compile Include="Sample\BackgroundWorkerSample.cs" />
     <Compile Include="BadDataPlan.cs" />

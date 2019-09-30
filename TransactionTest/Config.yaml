@@ -1,6 +1,7 @@
 ﻿---
 Financial:
     - Withdrawal
+    - Transfer
 
 Non-Financial:
     - 
@@ -13,6 +14,7 @@ Condition:
     - Correct_PIN
     - Enough_Cash
     - Amount
+    - Test1
 
 Before-Checking:
     - Card_Status
