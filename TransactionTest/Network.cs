@@ -38,33 +38,42 @@ namespace TransactionTest
 
         public string SendAndReceive(string sendMessage)
         {
-            int len = sendMessage.Length;
-            byte[] lenBytes = {(byte) (len/256), (byte) (len%256)};
-            //---create a TCPClient object at the IP and port no.---
-            TcpClient client = new TcpClient(ServerIp, PortNo);
-            NetworkStream nwStream = client.GetStream();
+            try
+            {
+                int len = sendMessage.Length;
+                byte[] lenBytes = { (byte)(len / 256), (byte)(len % 256) };
+                //---create a TCPClient object at the IP and port no.---
+                TcpClient client = new TcpClient(ServerIp, PortNo);
+                NetworkStream nwStream = client.GetStream();
 
-            nwStream.Write(lenBytes, 0, 2);
-            byte[] bytesToSend = Encoding.UTF8.GetBytes(sendMessage); // ASCIIEncoding.ASCII.GetBytes(textToSend);
+                nwStream.Write(lenBytes, 0, 2);
+                byte[] bytesToSend = Encoding.UTF8.GetBytes(sendMessage); // ASCIIEncoding.ASCII.GetBytes(textToSend);
 
-            //---send the text---
-            Console.WriteLine("Sending: " + sendMessage);
-            //Console.WriteLine("Sending: " + bytesToSend.ToString());
-            nwStream.Write(bytesToSend, 0, bytesToSend.Length);
-            //nwStream.Write(textToSend, 0, textToSend.Length);
+                //---send the text---
+                Console.WriteLine("Sending: " + sendMessage);
+                //Console.WriteLine("Sending: " + bytesToSend.ToString());
+                nwStream.Write(bytesToSend, 0, bytesToSend.Length);
+                //nwStream.Write(textToSend, 0, textToSend.Length);
 
-            //---read back the text---
-            byte[] bytesToRead = new byte[client.ReceiveBufferSize];
-            int bytesRead = nwStream.Read(bytesToRead, 0, client.ReceiveBufferSize);
+                //---read back the text---
+                byte[] bytesToRead = new byte[client.ReceiveBufferSize];
+                int bytesRead = nwStream.Read(bytesToRead, 0, client.ReceiveBufferSize);
 
-            // Console.WriteLine("Received : " + Encoding.UTF8.GetString(bytesToRead, 0, bytesRead));
-            string received = Encoding.UTF8.GetString(bytesToRead, 0, bytesRead);
+                // Console.WriteLine("Received : " + Encoding.UTF8.GetString(bytesToRead, 0, bytesRead));
+                string received = Encoding.UTF8.GetString(bytesToRead, 0, bytesRead);
 
-            // previous: Encoding.ASCII.GetString(bytesToRead, 0, bytesRead)            Console.ReadLine();
-            client.Close();
+                // previous: Encoding.ASCII.GetString(bytesToRead, 0, bytesRead)            Console.ReadLine();
+                client.Close();
 
-            //previous: return Encoding.UTF8.GetString(bytesToRead, 0, bytesRead);
-            return received;
+                //previous: return Encoding.UTF8.GetString(bytesToRead, 0, bytesRead);
+                return received;
+            }
+            catch (Exception e)
+            {
+                return e.ToString();
+                //throw;
+            }
+            
         }
 
         static void Main(string[] args)

@@ -120,6 +120,9 @@ namespace TransactionTest
                         _config.GetNetwork("ATM"), transactionConfig));
                 }
             }
+
+            Console.WriteLine("Condition-based plans Completed");
+
             /*
             // Reverse plans
             
@@ -211,6 +214,8 @@ namespace TransactionTest
                 (bool) objectType.InvokeMember("isEnough_Cash", BindingFlags.GetField, null, instantiatedObject, null);
             var Amount =
                 (bool) objectType.InvokeMember("isAmount", BindingFlags.GetField, null, instantiatedObject, null);
+            var Test1 =
+                (bool)objectType.InvokeMember("isTest1", BindingFlags.GetField, null, instantiatedObject, null);
             // TODO: add conditions continuously during system change
 
             Dictionary<string, bool> staticConditions = new Dictionary<string, bool>();
@@ -218,6 +223,7 @@ namespace TransactionTest
             staticConditions.Add(nameof(Correct_PIN), Correct_PIN);
             staticConditions.Add(nameof(Enough_Cash), Enough_Cash);
             staticConditions.Add(nameof(Amount), Amount);
+            staticConditions.Add(nameof(Test1), Test1);
             // TODO: add conditions continuously during system change
 
 
@@ -251,18 +257,29 @@ namespace TransactionTest
         {
             Console.WriteLine("start pending!");
 
-            for (int i = 0; i < 4; i++)
+            //-------------------------------------------------------------980708 TODO should be uncomment later (for multi-threading)
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    BackgroundWorker bw = new BackgroundWorker();
+            //    _workers.Add(bw);
+            //    _workers[i].DoWork += bg_DoWork;
+            //    _workers[i].RunWorkerCompleted += bg_runWorker_Completed;
+            //    _workers[i].RunWorkerAsync(_plansList[i]);
+            //}
+
+            //while (total_workers != completed_workers)
+            //    Thread.Sleep(1000);
+            //-------------------------------------------------------------
+
+            // 980708
+            foreach (var pln in _plans)
             {
-                BackgroundWorker bw = new BackgroundWorker();
-                _workers.Add(bw);
-                _workers[i].DoWork += bg_DoWork;
-                _workers[i].RunWorkerCompleted += bg_runWorker_Completed;
-                _workers[i].RunWorkerAsync(_plansList[i]);
+                Reporter.Log(pln.Process());
             }
 
-            while (total_workers != completed_workers)
-                Thread.Sleep(1000);
 
+
+            //-------------------------------------------------------------
             /*Parallel.ForEach(_plans, plan =>
             {
                 Reporter.Log(plan.Process());

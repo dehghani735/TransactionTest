@@ -13,7 +13,6 @@ namespace TransactionTest
         public static bool isEnough_Cash = false;
         public static bool isOther = false;
 
-
         public Balance(TransactionConfig transactionConfig) : base(transactionConfig)
         {
             AmountEntryField = "000000000000";
@@ -37,10 +36,12 @@ namespace TransactionTest
 
         public override string Process(Network network)
         {
+
+            // before here i should change the message based on transactionConfig (98/07/08)
             //TODO: a list of Msgs that form a Plan to send
             var msg = this.GetNdcTransactionRequestMessage();
 
-            var received = ""; //network.SendAndReceive(msg); //TODO
+            var received = network.SendAndReceive(msg); //"" //TODO 
             Console.WriteLine("Received: " + received);
 
             var replyCommand = new ReplyBalance(received);
@@ -58,6 +59,40 @@ namespace TransactionTest
             {
                 return this.GetType().Name + "Exception Occurred in Parsing NDCTransactionReplyCommand(Failed)";
             }
+        }
+
+        private void PrepareMessage()
+        {
+            //---------------------------------------------------------------------------------Amount
+            if (TransactionConfig.ConditionSet.Contains("~Amount"))
+            {
+                AmountEntryField = "74".PadLeft(12, '0');
+                Console.WriteLine("balance contains: ~Amount");
+            }
+            else
+            {
+                AmountEntryField = TransactionConfig.Amount.PadLeft(12, '0');
+            }
+            //---------------------------------------------------------------------------------Enough_Cash
+            if (TransactionConfig.ConditionSet.Contains("~Enough_Cash"))
+            {
+                AmountEntryField = "84".PadLeft(12, '0');
+                Console.WriteLine("balance contains: ~Enough_Cash");
+            }
+            //else
+            //{
+            //    AmountEntryField = TransactionConfig.Amount.PadLeft(12, '0');
+            //}
+            //---------------------------------------------------------------------------------Correct_PIN
+            if (TransactionConfig.ConditionSet.Contains("~Correct_PIN"))
+            {
+                AmountEntryField = "94".PadLeft(12, '0');
+                Console.WriteLine("balance contains: ~Correct_PIN");
+            }
+            //else
+            //{
+            //    AmountEntryField = TransactionConfig.Amount.PadLeft(12, '0');
+            //}
         }
 
         //        "11&#28;000&#28;&#28;&#28;18&#28;;5894631511409724=99105061710399300020?&#28;&#28;AAAC   A&#28;000000000000&#28;&gt;106&lt;?1&gt;82&lt;7&gt;9=2&#28;&#28;&#28;&#28;20000100000000000000000000";
