@@ -10,3 +10,5 @@ report on result
 
 // TODO 980123 i think i can make ExpectedResultcollection in the plan class singleton, not each plan have one of them due to memory usage. one instance 
 // is sufficient
+
+980708 multi threading is off; turn it on in planFactory.ProcessPendingPlans
