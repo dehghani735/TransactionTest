@@ -52,7 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TransactionTest.TestApplication</StartupObject>
+    <StartupObject>TransactionTest.Event.Number</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AfterChecking.cs" />
+    <Compile Include="Event\PrintHelper.cs" />
     <Compile Include="ReplyTransfer.cs" />
     <Compile Include="Sample\BackgroundWorkerMultiThread.cs" />
     <Compile Include="Sample\BackgroundWorkerSample.cs" />
