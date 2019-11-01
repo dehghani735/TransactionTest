@@ -52,7 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TransactionTest.Event.Number</StartupObject>
+    <StartupObject>TransactionTest.Event.youtubeMosh.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -112,7 +112,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AfterChecking.cs" />
-    <Compile Include="Event\PrintHelper.cs" />
+    <Compile Include="Event\tutorialsTeacher\PrintHelper.cs" />
+    <Compile Include="Event\youtubeMosh\MailService.cs" />
+    <Compile Include="Event\youtubeMosh\MessageService.cs" />
+    <Compile Include="Event\youtubeMosh\Program.cs" />
+    <Compile Include="Event\youtubeMosh\Video.cs" />
+    <Compile Include="Event\youtubeMosh\VideoEncoder.cs" />
     <Compile Include="ReplyTransfer.cs" />
     <Compile Include="Sample\BackgroundWorkerMultiThread.cs" />
     <Compile Include="Sample\BackgroundWorkerSample.cs" />

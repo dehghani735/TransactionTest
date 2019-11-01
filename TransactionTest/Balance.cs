@@ -36,6 +36,7 @@ namespace TransactionTest
 
         public override string Process(Network network)
         {
+            OnStatusProcessing(TransactionConfig); // for example
             PrepareMessage();
             // before here i should change the message based on transactionConfig (98/07/08)
             //TODO: a list of Msgs that form a Plan to send
