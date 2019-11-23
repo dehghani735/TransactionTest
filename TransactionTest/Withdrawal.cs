@@ -16,7 +16,6 @@ namespace TransactionTest
 
         public Withdrawal()
         {
-            
         }
 
         public Withdrawal(TransactionConfig transactionConfig) : base(transactionConfig)
@@ -30,7 +29,7 @@ namespace TransactionTest
         {
             this.TransactionConfig = tc;
         }
-        
+
         public override void Ali()
         {
             Console.WriteLine("ali withdrawal");
@@ -38,12 +37,14 @@ namespace TransactionTest
 
         public override string Process(Network network)
         {
+            OnStatusStarting(TransactionConfig);
+            OnStatusProcessing(TransactionConfig); // for example
             PrepareMessage();
             // before here i should change the message based on transactionConfig (98/07/08)
             //TODO: a list of Msgs that form a Plan to send
             var msg = this.GetNdcTransactionRequestMessage();
 
-      var received = "";// network.SendAndReceive(msg); //"" //TODO
+            var received = ""; // network.SendAndReceive(msg); //"" //TODO
             Console.WriteLine("Received: " + received);
 
             var replyCommand = new ReplyWithdrawal(received);
@@ -53,8 +54,10 @@ namespace TransactionTest
                 //TODO
                 if (replyCommand.Equals(this.TransactionConfig.ExpectedResult))
                 {
+                    OnStatusPassed(TransactionConfig);
                     return this.GetType().Name + " (Passed)";
                 }
+                OnStatusFailed(TransactionConfig);
                 return this.GetType().Name + " (Failed)";
             }
             else

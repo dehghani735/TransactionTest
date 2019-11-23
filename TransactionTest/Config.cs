@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using YamlDotNet.RepresentationModel;
 
 namespace TransactionTest
@@ -143,8 +144,8 @@ namespace TransactionTest
         {
             using (
                 var input =
-                    new StreamReader(
-                        @"C:\\Users\\MDT\\Source\\Repos\\mdt\\TransactionTest\\TransactionTest\\Config.yaml"))
+                    new StreamReader(System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\..\..\Config.yaml")
+            )
             {
                 // Load the stream
                 _file = new YamlStream();

@@ -52,7 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TransactionTest.Event.youtubeMosh.Program</StartupObject>
+    <StartupObject>TransactionTest.TestApplication</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -118,6 +118,7 @@
     <Compile Include="Event\youtubeMosh\Program.cs" />
     <Compile Include="Event\youtubeMosh\Video.cs" />
     <Compile Include="Event\youtubeMosh\VideoEncoder.cs" />
+    <Compile Include="FormSubscriber.cs" />
     <Compile Include="ReplyTransfer.cs" />
     <Compile Include="Sample\BackgroundWorkerMultiThread.cs" />
     <Compile Include="Sample\BackgroundWorkerSample.cs" />
@@ -201,6 +202,7 @@
     <None Include="TextFile1.yaml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Events.txt" />
     <Content Include="Notes.txt" />
     <Content Include="Report.txt" />
     <None Include="traces.yaml" />

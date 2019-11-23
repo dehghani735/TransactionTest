@@ -10,6 +10,7 @@ using System.Runtime.Remoting;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+
 //using C1.Win.C1Input;
 
 //using NUnit.Framework.Interfaces;
@@ -104,6 +105,8 @@ namespace TransactionTest
             expectedResultCollection.Add(_config.ExpectedResultNames);
             expectedResultCollection.Add(_config.ExpectedResultList);
 
+            var formSubscriber = new FormSubscriber(); // subscriber
+
             // Condition-based plans
             foreach (var financial in _config.Financial)
             {
@@ -118,6 +121,12 @@ namespace TransactionTest
 
                     _plans.Add(new ConditionBasedPlan(financial + "," + condition, expectedResultCollection,
                         _config.GetNetwork("ATM"), transactionConfig));
+
+                    foreach (var transaction in _plans[_plans.Count - 1].Transactions)
+                    {
+                        transaction.StatusChanged += formSubscriber.OnTransactionChangeStatus; // subscribe to the event
+                    }
+                    //_plans[_plans.Count - 1].Transactions[0].StatusChanged += formSubscriber.OnTransactionChangeStatus; // subscribe to the event
                 }
             }
 
@@ -215,7 +224,7 @@ namespace TransactionTest
             var Amount =
                 (bool) objectType.InvokeMember("isAmount", BindingFlags.GetField, null, instantiatedObject, null);
             var Test1 =
-                (bool)objectType.InvokeMember("isTest1", BindingFlags.GetField, null, instantiatedObject, null);
+                (bool) objectType.InvokeMember("isTest1", BindingFlags.GetField, null, instantiatedObject, null);
             // TODO: add conditions continuously during system change
 
             Dictionary<string, bool> staticConditions = new Dictionary<string, bool>();
@@ -276,8 +285,6 @@ namespace TransactionTest
             {
                 Reporter.Log(pln.Process());
             }
-
-
 
             //-------------------------------------------------------------
             /*Parallel.ForEach(_plans, plan =>
