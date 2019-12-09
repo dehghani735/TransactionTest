@@ -10,6 +10,7 @@ using System.Runtime.Remoting;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 //using C1.Win.C1Input;
 
@@ -17,6 +18,26 @@ using System.Threading.Tasks;
 
 namespace TransactionTest
 {
+    public class PlanEventArgs : EventArgs
+    {
+        public enum eStatus
+        {
+            Started,
+            Processing,
+            Passed,
+            Failed
+        }
+
+        public eStatus EventType { get; set; }
+        public TransactionConfig EventMessage { get; set; }
+
+        public PlanEventArgs(eStatus eventType, TransactionConfig eventMessage)
+        {
+            this.EventType = eventType;
+            this.EventMessage = eventMessage;
+        }
+    }
+
     public class PlanFactory // TODO: as invoker
     {
         private readonly Config _config;
@@ -36,6 +57,8 @@ namespace TransactionTest
         private List<Plan> _plan2 = new List<Plan>();
         private List<Plan> _plan3 = new List<Plan>();
         private List<Plan> _plan4 = new List<Plan>();
+
+        public event EventHandler<PlanEventArgs> PlanAdded;
 
         public PlanFactory(Config config)
         {
@@ -91,6 +114,12 @@ namespace TransactionTest
 
         public void GeneratePlans()
         {
+            ///Application.EnableVisualStyles();
+            //Form4 form4 = new Form4();
+            //form4.ShowDialog();
+
+            //Application.Run(form4);
+
             Console.WriteLine("===Start PlanFactory.GeneratePlans()===");
 
             //_plans = new List<Plan>();
@@ -121,15 +150,17 @@ namespace TransactionTest
 
                     _plans.Add(new ConditionBasedPlan(financial + "," + condition, expectedResultCollection,
                         _config.GetNetwork("ATM"), transactionConfig));
-
+                    //_config._form4.
                     foreach (var transaction in _plans[_plans.Count - 1].Transactions)
                     {
                         transaction.StatusChanged += formSubscriber.OnTransactionChangeStatus; // subscribe to the event
+                        transaction.StatusChanged += _config._form4.OnTransactionChangeStatus; // subscribe to the event
                     }
                     //_plans[_plans.Count - 1].Transactions[0].StatusChanged += formSubscriber.OnTransactionChangeStatus; // subscribe to the event
                 }
             }
-
+            //_config._form4.Show();
+            //form4.ShowDialog();
             Console.WriteLine("Condition-based plans Completed");
 
             /*
@@ -266,21 +297,21 @@ namespace TransactionTest
         {
             Console.WriteLine("start pending!");
 
-            //-------------------------------------------------------------980708 TODO should be uncomment later (for multi-threading)
-            //for (int i = 0; i < 4; i++)
-            //{
-            //    BackgroundWorker bw = new BackgroundWorker();
-            //    _workers.Add(bw);
-            //    _workers[i].DoWork += bg_DoWork;
-            //    _workers[i].RunWorkerCompleted += bg_runWorker_Completed;
-            //    _workers[i].RunWorkerAsync(_plansList[i]);
-            //}
+            //-------------------------------------------------------------980708 TODO should be uncomment later(for multi - threading)
+            //    for (int i = 0; i < 4; i++)
+            //    {
+            //        BackgroundWorker bw = new BackgroundWorker();
+            //        _workers.Add(bw);
+            //        _workers[i].DoWork += bg_DoWork;
+            //        _workers[i].RunWorkerCompleted += bg_runWorker_Completed;
+            //        _workers[i].RunWorkerAsync(_plansList[i]);
+            //    }
 
             //while (total_workers != completed_workers)
             //    Thread.Sleep(1000);
             //-------------------------------------------------------------
-
             // 980708
+
             foreach (var pln in _plans)
             {
                 Reporter.Log(pln.Process());

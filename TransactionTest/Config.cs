@@ -29,6 +29,7 @@ namespace TransactionTest
         private string _amount;
         private List<Network> _networks;
         public List<string> _expectedResultNames;
+        public Form4 _form4;
 
         //public Dictionary<HashSet<string>, ExpectedResult> _expectedResults;
 
@@ -120,7 +121,7 @@ namespace TransactionTest
             return new List<string>() { "10.15.1.61", "9009" };
         }*/
 
-        public Config()
+        public Config(Form4 form4)
         {
             _financial = new List<string>();
             _nonFinancial = new List<string>();
@@ -134,6 +135,7 @@ namespace TransactionTest
             _amount = "0";
             _networks = new List<Network>();
             _expectedResultNames = new List<string>();
+            _form4 = form4;
 
             // _expectedResults = new Dictionary<HashSet<string>, ExpectedResult>(HashSet<string>.CreateSetComparer());
 
@@ -339,9 +341,9 @@ namespace TransactionTest
 
         static void Main()
         {
-            Config cf = new Config();
-            cf.ReadFile();
-            cf.Parse();
+            //Config cf = new Config();
+            //cf.ReadFile();
+            //cf.Parse();
             // Console.WriteLine(cf.Card.Count);
         }
     }
