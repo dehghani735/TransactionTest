@@ -65,6 +65,16 @@ namespace TransactionTest
             _config = config;
         }
 
+        protected virtual void OnPlanAdded(TransactionConfig transactionConfig)
+        {
+            if (PlanAdded != null)
+            {
+                PlanAdded(this,
+                    new PlanEventArgs(PlanEventArgs.eStatus.Started, transactionConfig));
+                // for example
+            }
+        }
+
         public void CreateTruthTable(int n, string s)
         {
             if (n == 0)
@@ -150,6 +160,7 @@ namespace TransactionTest
 
                     _plans.Add(new ConditionBasedPlan(financial + "," + condition, expectedResultCollection,
                         _config.GetNetwork("ATM"), transactionConfig));
+                    //OnPlanAdded();
                     //_config._form4.
                     foreach (var transaction in _plans[_plans.Count - 1].Transactions)
                     {
