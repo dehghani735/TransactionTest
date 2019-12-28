@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ namespace TransactionTest
     [Serializable]
     public class ExpectedResult
     {
-        public string Category { get; set; }
+        public string Category { get; set; }  // I am not sure that this field is useful
         // public string Condition { get; set; } //TODO delete this field
         public string State { get; set; }
         public string Screen { get; set; }
