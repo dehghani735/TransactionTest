@@ -1,4 +1,4 @@
-﻿Mr malek: Using Producer Consumer (Blocking Queue) or Async for processing flows; decide which one to use (probably blocking Q is better)
+Mr malek: Using Producer Consumer (Blocking Queue) or Async for processing flows; decide which one to use (probably blocking Q is better)
 Network (ip port from yaml. Send and Receive on client side)
 generate flows
 report on result
@@ -12,3 +12,5 @@ report on result
 // is sufficient
 
 980708 multi threading is off; turn it on in planFactory.ProcessPendingPlans
+
+981009 می توان در گزارش از Template design patter هم نام برد بعداً
