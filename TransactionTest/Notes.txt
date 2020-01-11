@@ -14,3 +14,5 @@ report on result
 980708 multi threading is off; turn it on in planFactory.ProcessPendingPlans
 
 981009 می توان در گزارش از Template design patter هم نام برد بعداً
+
+checkedlistbox

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Sockets;
@@ -10,51 +10,55 @@ using System.Windows.Forms;
 
 namespace TransactionTest
 {
-    class TestApplication
-    {
-        static void Main()
-        {
-            //Form4 form4 = new Form4();
-            //form4.Show();
-            //form4.Close();
+		class TestApplication
+		{
+				static void Main()
+				{
+						//Form4 form4 = new Form4();
+						//form4.Show();
+						//form4.Close();
 
-            Application.EnableVisualStyles();
-            Form4 form4 = new Form4();
-            //form4.ShowDialog();
-            Application.Run(form4);
-            
-            //Run(form4);
+						Application.EnableVisualStyles();
+						Form4 form4 = new Form4();
+						//form4.ShowDialog();
+						Application.Run(form4);
 
-            //var config = new Config(form4);
-            //config.ReadFile();
-            //config.Parse();
+						// now go to form4.cs for more information 981020
 
-            //var planFactory = new PlanFactory(config);
 
-            //// TODO: generate plans is incomplete
-            //planFactory.GeneratePlans();
+			//==============================
+						//Run(form4);
 
-            //Reporter.Log(System.DateTime.Now.ToString());
+						//var config = new Config(form4);
+						//config.ReadFile();
+						//config.Parse();
 
-            //planFactory.ProcessPendingPlans();
+						//var planFactory = new PlanFactory(config);
 
-        }
+						//// TODO: generate plans is incomplete
+						//planFactory.GeneratePlans();
 
-        public static void Run(Form4 form4)
-        {
+						//Reporter.Log(System.DateTime.Now.ToString());
 
-            var config = new Config(form4);
-            config.ReadFile();
-            config.Parse();
+						//planFactory.ProcessPendingPlans();
 
-            var planFactory = new PlanFactory(config);
+				}
 
-            // TODO: generate plans is incomplete
-            planFactory.GeneratePlans();
+				public static void Run(Form4 form4)
+				{
 
-            Reporter.Log(System.DateTime.Now.ToString());
+						var config = new Config(form4);
+						config.ReadFile();
+						config.Parse();
 
-            planFactory.ProcessPendingPlans();
-        }
-    }
+						var planFactory = new PlanFactory(config);
+
+						// TODO: generate plans is incomplete
+						planFactory.GeneratePlans();
+
+						Reporter.Log(System.DateTime.Now.ToString());
+
+						planFactory.ProcessPendingPlans();
+				}
+		}
 }
