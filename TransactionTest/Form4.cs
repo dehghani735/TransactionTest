@@ -131,7 +131,12 @@ namespace TransactionTest
 
 		public void OnTransactionChangeStatus(object source, TransactionEventArgs args)
 		{
-			switch (args.EventType)
+
+            ListViewItem listViewItem = listView1.FindItemWithText("~Enough_Cash ~Amount Test1");
+
+            //listViewItem.BackColor = Color.Red;
+
+            switch (args.EventType)
 			{
 				case TransactionEventArgs.eStatus.Passed:
 					textBox1.Text = "Passed";
@@ -140,12 +145,12 @@ namespace TransactionTest
 					break;
 				case TransactionEventArgs.eStatus.Failed:
 					textBox1.Text = "Failed";
-					// streamWriter.WriteLine("====================================================================");
-					break;
+                    listViewItem.BackColor = Color.Red;
+                    // streamWriter.WriteLine("====================================================================");
+                    break;
 				default:
 					break;
 			}
-
 		}
 
 		public void OnItemAdded(object source, PlanEventArgs args)
