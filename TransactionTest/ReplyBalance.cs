@@ -15,7 +15,7 @@ namespace TransactionTest
         public override bool Equals(Object obj)
         {
             Console.WriteLine("ReplyBalance started");
-            return true;
+            return false;
         }
     }
 }

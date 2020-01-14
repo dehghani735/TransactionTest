@@ -14,6 +14,7 @@ namespace TransactionTest
         private ExpectedResult _expectedResult;
         private HashSet<string> _conditionSet;
         private List<string> _badData;
+        private string _description; // added 981024 for UI and Events
         //private List<Card> card;
         //private List<Network> networks;
 
@@ -21,6 +22,12 @@ namespace TransactionTest
         {
             get { return _expectedResult; }
             set { _expectedResult = value; }
+        }
+
+        public string Description
+        {
+            get { return _description; }
+            set { _description = value; }
         }
 
         public TransactionConfig()

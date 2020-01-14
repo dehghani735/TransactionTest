@@ -132,9 +132,11 @@ namespace TransactionTest
         public void OnTransactionChangeStatus(object source, TransactionEventArgs args)
         {
 
-            var str = args.EventMessage.ConditionSet.ToString();
-                
-            ListViewItem listViewItem = listView1.FindItemWithText("~Enough_Cash ~Amount Test1");
+            //var str = args.EventMessage.ConditionSet.ToString();
+
+            var description = args.EventMessage.Description.Split(',')[1];
+
+            ListViewItem listViewItem = listView1.FindItemWithText(description);
 
             //string[] conditionList = condition.TrimStart(' ').TrimEnd(' ').Split(' ');
             //HashSet<string> conditionSet = new HashSet<string>();
@@ -148,12 +150,13 @@ namespace TransactionTest
             switch (args.EventType)
             {
                 case TransactionEventArgs.eStatus.Passed:
-                    textBox1.Text = "Passed";
-                    Console.WriteLine("event Passed handled");
+                    //textBox1.Text = "Passed";
+                    //Console.WriteLine("event Passed handled");
+                    listViewItem.BackColor = Color.Green;
                     //this.ShowDialog("ddd");
                     break;
                 case TransactionEventArgs.eStatus.Failed:
-                    textBox1.Text = "Failed";
+                    //textBox1.Text = "Failed";
                     listViewItem.BackColor = Color.Red;
                     // streamWriter.WriteLine("====================================================================");
                     break;

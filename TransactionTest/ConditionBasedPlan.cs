@@ -18,6 +18,7 @@ namespace TransactionTest
         public override void CreateTransactions()
         {
             // Console.WriteLine("===Start Plan.ConditionBasedPlan()===");
+            TransactionConfig.Description = Description;
             TransactionConfig.ExpectedResult = FindExpectedResult("Balance", this.Description.Split(',')[1]);
             TransactionConfig.SetConditionSet(""); // parameter is nothing ( because all of them are true)
             Transactions.Add(new Balance(TransactionConfig));

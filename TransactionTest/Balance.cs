@@ -53,10 +53,10 @@ namespace TransactionTest
                 //TODO
                 if (replyCommand.Equals(this.TransactionConfig.ExpectedResult))
                 {
-                    OnStatusPassed(TransactionConfig);
+                    //OnStatusPassed(TransactionConfig);
                     return this.GetType().Name + " (Passed)";
                 }
-                OnStatusFailed(TransactionConfig);
+                //OnStatusFailed(TransactionConfig);
                 return this.GetType().Name + " (Failed)";
             }
             else

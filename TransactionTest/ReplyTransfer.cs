@@ -17,7 +17,7 @@ namespace TransactionTest
         {
             // Specifically Equal method for Transfer transaction
             Console.WriteLine("ReplyTransfer started");
-            return false;
+            return true;
         }
     }
 }
