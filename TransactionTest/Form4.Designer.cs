@@ -39,17 +39,17 @@ namespace TransactionTest
             // 
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(80, 18);
+            this.listView1.Location = new System.Drawing.Point(12, 18);
             this.listView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(958, 259);
+            this.listView1.Size = new System.Drawing.Size(1078, 649);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(693, 320);
+            this.button1.Location = new System.Drawing.Point(1128, 160);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 35);
@@ -61,7 +61,7 @@ namespace TransactionTest
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(421, 362);
+            this.checkBox1.Location = new System.Drawing.Point(1148, 369);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(98, 21);
@@ -71,7 +71,7 @@ namespace TransactionTest
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(421, 412);
+            this.textBox1.Location = new System.Drawing.Point(1148, 419);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(89, 22);
@@ -80,9 +80,9 @@ namespace TransactionTest
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(716, 372);
+            this.button2.Location = new System.Drawing.Point(1128, 212);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 33);
+            this.button2.Size = new System.Drawing.Size(118, 33);
             this.button2.TabIndex = 5;
             this.button2.Text = "Run";
             this.button2.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@ namespace TransactionTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 491);
+            this.ClientSize = new System.Drawing.Size(1283, 694);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.checkBox1);

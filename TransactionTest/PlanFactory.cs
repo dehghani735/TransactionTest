@@ -160,7 +160,7 @@ namespace TransactionTest
 
 					_plans.Add(new ConditionBasedPlan(financial + "," + condition, expectedResultCollection,
 							_config.GetNetwork("ATM"), transactionConfig));
-					OnPlanAdded(condition);
+					OnPlanAdded(financial + ": " + condition);
 
 					//_config._form4.
 					foreach (var transaction in _plans[_plans.Count - 1].Transactions)
