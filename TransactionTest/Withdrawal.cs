@@ -57,11 +57,12 @@ namespace TransactionTest
                     OnStatusPassed(TransactionConfig);
                     return this.GetType().Name + " (Passed)";
                 }
-                OnStatusFailed(TransactionConfig);
+                OnStatusFailed(TransactionConfig, replyCommand.ErrorMessage);
                 return this.GetType().Name + " (Failed)";
             }
             else
             {
+                OnStatusFailed(TransactionConfig, replyCommand.ErrorMessage);
                 return this.GetType().Name + "Exception Occurred in Parsing NDCTransactionReplyCommand(Failed)";
             }
         }

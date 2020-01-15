@@ -13133,3 +13133,1731 @@
 ====================================================================
 15/01/2020 12:33:24 ق.ظ | TransactionTest.Balance Transaction % is in state % Started 0
 15/01/2020 12:33:24 ق.ظ | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:56 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:56 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:56 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:56 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:56 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:56 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:56 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:56 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:56 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:56 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:22:57 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:57 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:57 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:57 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:57 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:22:58 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:22:58 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:21 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:21 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:21 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:21 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:21 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:21 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:22 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:22 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:23 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:23 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 9:48:23 AM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 9:48:23 AM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 9:48:23 AM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 9:48:23 AM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:42 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:42 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:43 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:43 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:09:44 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:09:44 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:09:44 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:20 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:20 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:21 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:21 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:21 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:21 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:12:29 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:29 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:12:30 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:12:30 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:23 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:23 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:23 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:23 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:23 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:23 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:23 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 5:46:24 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:24 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:24 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:25 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:25 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:25 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:25 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 5:46:25 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 5:46:25 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 5:46:25 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 5:46:25 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:00 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:00 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:13:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:13:01 PM | TransactionTest.Transfer Transaction % is in state % Passed 4
+====================================================================
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:13:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:34 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:34 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:35 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:35 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:35 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:15:35 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:15:35 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:15:35 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:15:35 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:01 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:01 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Started 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Processing 5
+2020-01-15 7:16:02 PM | TransactionTest.Withdrawal Transaction % is in state % Failed 5
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Started 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Processing 4
+2020-01-15 7:16:02 PM | TransactionTest.Transfer Transaction % is in state % Failed 4
+====================================================================
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Started 0
+2020-01-15 7:16:02 PM | TransactionTest.Balance Transaction % is in state % Processing 0

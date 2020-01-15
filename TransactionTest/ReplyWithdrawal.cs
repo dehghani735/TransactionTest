@@ -15,6 +15,8 @@ namespace TransactionTest
         public override bool Equals(Object obj)
         {
             // Specifically Equal method for Withdrawal transaction
+
+            ErrorMessage = "Receipt is not the same";
             Console.WriteLine("ReplyWithdrawal started");
             return false;
         }

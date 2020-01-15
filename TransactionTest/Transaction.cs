@@ -15,11 +15,19 @@ namespace TransactionTest
 
         public eStatus EventType { get; set; }
         public TransactionConfig EventMessage { get; set; }
+        public string Message { get; set; }
 
         public TransactionEventArgs(eStatus eventType, TransactionConfig eventMessage)
         {
             this.EventType = eventType;
             this.EventMessage = eventMessage;
+        }
+
+        public TransactionEventArgs(eStatus eventType, TransactionConfig eventMessage, string message)
+        {
+            this.EventType = eventType;
+            this.EventMessage = eventMessage;
+            this.Message = message;
         }
     }
 
@@ -78,12 +86,12 @@ namespace TransactionTest
             }
         }
 
-        protected virtual void OnStatusFailed(TransactionConfig transactionConfig)
+        protected virtual void OnStatusFailed(TransactionConfig transactionConfig, string message)
         {
             if (StatusChanged != null)
             {
                 StatusChanged(this,
-                    new TransactionEventArgs(TransactionEventArgs.eStatus.Failed, transactionConfig));
+                    new TransactionEventArgs(TransactionEventArgs.eStatus.Failed, transactionConfig, message));
                 // for example
             }
         }

@@ -16,8 +16,9 @@ namespace TransactionTest
         public override bool Equals(Object obj)
         {
             // Specifically Equal method for Transfer transaction
+            ErrorMessage = "Journal is not the same";
             Console.WriteLine("ReplyTransfer started");
-            return true;
+            return false;
         }
     }
 }

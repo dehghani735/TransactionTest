@@ -34,6 +34,8 @@ namespace TransactionTest
 
         public string ReplyCommand { get; set; }
 
+        public string ErrorMessage { get; set; }
+
         public NDCTransactionReplyCommand(String replyCommand)
         {
             ReplyCommand = replyCommand;
