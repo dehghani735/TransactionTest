@@ -29,10 +29,10 @@ namespace TransactionTest
         private void InitializeComponent()
         {
             this.listView1 = new System.Windows.Forms.ListView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.CreatePlans = new System.Windows.Forms.Button();
+            this.Run = new System.Windows.Forms.Button();
+            this.ClearPlans = new System.Windows.Forms.Button();
+            this.ExportExcel = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,46 +51,46 @@ namespace TransactionTest
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
-            // button1
+            // CreatePlans
             // 
-            this.button1.Location = new System.Drawing.Point(1128, 21);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 35);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Create Plans";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.CreatePlans.Location = new System.Drawing.Point(1128, 21);
+            this.CreatePlans.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CreatePlans.Name = "CreatePlans";
+            this.CreatePlans.Size = new System.Drawing.Size(118, 35);
+            this.CreatePlans.TabIndex = 1;
+            this.CreatePlans.Text = "Create Plans";
+            this.CreatePlans.UseVisualStyleBackColor = true;
+            this.CreatePlans.Click += new System.EventHandler(this.CreatePlans_Click);
             // 
-            // button2
+            // Run
             // 
-            this.button2.Location = new System.Drawing.Point(1128, 66);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 33);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Run";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Run.Location = new System.Drawing.Point(1128, 66);
+            this.Run.Name = "Run";
+            this.Run.Size = new System.Drawing.Size(118, 33);
+            this.Run.TabIndex = 5;
+            this.Run.Text = "Run";
+            this.Run.UseVisualStyleBackColor = true;
+            this.Run.Click += new System.EventHandler(this.Run_Click);
             // 
-            // button3
+            // ClearPlans
             // 
-            this.button3.Location = new System.Drawing.Point(1128, 166);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 33);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Clear Plans";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.ClearPlans.Location = new System.Drawing.Point(1128, 166);
+            this.ClearPlans.Name = "ClearPlans";
+            this.ClearPlans.Size = new System.Drawing.Size(118, 33);
+            this.ClearPlans.TabIndex = 6;
+            this.ClearPlans.Text = "Clear Plans";
+            this.ClearPlans.UseVisualStyleBackColor = true;
+            this.ClearPlans.Click += new System.EventHandler(this.ClearPlans_Click);
             // 
-            // button4
+            // ExportExcel
             // 
-            this.button4.Location = new System.Drawing.Point(1128, 635);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 32);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Export as Excel";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.ExportExcel.Location = new System.Drawing.Point(1115, 635);
+            this.ExportExcel.Name = "ExportExcel";
+            this.ExportExcel.Size = new System.Drawing.Size(131, 32);
+            this.ExportExcel.TabIndex = 7;
+            this.ExportExcel.Text = "Export as Excel";
+            this.ExportExcel.UseVisualStyleBackColor = true;
+            this.ExportExcel.Click += new System.EventHandler(this.ExportExcel_Click);
             // 
             // textBox1
             // 
@@ -133,10 +133,10 @@ namespace TransactionTest
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ExportExcel);
+            this.Controls.Add(this.ClearPlans);
+            this.Controls.Add(this.Run);
+            this.Controls.Add(this.CreatePlans);
             this.Controls.Add(this.listView1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form4";
@@ -149,10 +149,10 @@ namespace TransactionTest
         #endregion
 
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button button1;
-    private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button CreatePlans;
+        private System.Windows.Forms.Button Run;
+        private System.Windows.Forms.Button ClearPlans;
+        private System.Windows.Forms.Button ExportExcel;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;

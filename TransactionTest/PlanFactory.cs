@@ -42,7 +42,7 @@ namespace TransactionTest
 	{
 		private readonly Config _config;
 		private List<string> _bools = new List<string>();
-		private List<Plan> _plans = new List<Plan>();
+    public List<Plan> _plans { get; set; }
 		//private List<Plan> _plans;
 
 		// -----
@@ -63,7 +63,8 @@ namespace TransactionTest
 		public PlanFactory(Config config)
 		{
 			_config = config;
-		}
+      _plans = new List<Plan>();
+    }
 
 		protected virtual void OnPlanAdded(string condition)
 		{

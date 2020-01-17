@@ -68,7 +68,9 @@
     <Reference Include="C1.Win.C1GanttView.4, Version=4.0.20171.248, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
     <Reference Include="C1.Win.C1Gauge.4, Version=4.0.20171.248, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
     <Reference Include="C1.Win.C1Input.4, Version=4.0.20171.248, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a" />
-    <Reference Include="C1.Win.C1List.2, Version=2.0.20171.248, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1List.2, Version=2.0.20171.248, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v2.0\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
     <Reference Include="C1.Win.C1Schedule.4, Version=4.0.20171.248, Culture=neutral, PublicKeyToken=79882d576c6336da" />
     <Reference Include="C1.Win.C1SuperTooltip.4, Version=4.0.20171.248, Culture=neutral, PublicKeyToken=79882d576c6336da" />
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
