@@ -1,0 +1,24 @@
+ListViewItem: {1},ListViewSubItem: {1},ListViewSubItem: {Withdrawal: Correct_PIN Enough_Cash Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {2},ListViewSubItem: {2},ListViewSubItem: {Withdrawal: Correct_PIN Enough_Cash Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {3},ListViewSubItem: {3},ListViewSubItem: {Withdrawal: Correct_PIN Enough_Cash ~Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {4},ListViewSubItem: {4},ListViewSubItem: {Withdrawal: Correct_PIN Enough_Cash ~Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {5},ListViewSubItem: {5},ListViewSubItem: {Withdrawal: Correct_PIN ~Enough_Cash Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {6},ListViewSubItem: {6},ListViewSubItem: {Withdrawal: Correct_PIN ~Enough_Cash Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {7},ListViewSubItem: {7},ListViewSubItem: {Withdrawal: Correct_PIN ~Enough_Cash ~Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {8},ListViewSubItem: {8},ListViewSubItem: {Withdrawal: Correct_PIN ~Enough_Cash ~Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {9},ListViewSubItem: {9},ListViewSubItem: {Withdrawal: ~Correct_PIN Enough_Cash Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {10},ListViewSubItem: {10},ListViewSubItem: {Withdrawal: ~Correct_PIN Enough_Cash Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {11},ListViewSubItem: {11},ListViewSubItem: {Withdrawal: ~Correct_PIN Enough_Cash ~Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {12},ListViewSubItem: {12},ListViewSubItem: {Withdrawal: ~Correct_PIN Enough_Cash ~Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {13},ListViewSubItem: {13},ListViewSubItem: {Withdrawal: ~Correct_PIN ~Enough_Cash Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {14},ListViewSubItem: {14},ListViewSubItem: {Withdrawal: ~Correct_PIN ~Enough_Cash Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {15},ListViewSubItem: {15},ListViewSubItem: {Withdrawal: ~Correct_PIN ~Enough_Cash ~Amount Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {16},ListViewSubItem: {16},ListViewSubItem: {Withdrawal: ~Correct_PIN ~Enough_Cash ~Amount ~Test1 },ListViewSubItem: {Receipt is not the same}
+ListViewItem: {17},ListViewSubItem: {17},ListViewSubItem: {Transfer: Enough_Cash Amount Test1 },ListViewSubItem: {Journal is not the same}
+ListViewItem: {18},ListViewSubItem: {18},ListViewSubItem: {Transfer: Enough_Cash Amount ~Test1 },ListViewSubItem: {Journal is not the same}
+ListViewItem: {19},ListViewSubItem: {19},ListViewSubItem: {Transfer: Enough_Cash ~Amount Test1 },ListViewSubItem: {Journal is not the same}
+ListViewItem: {20},ListViewSubItem: {20},ListViewSubItem: {Transfer: Enough_Cash ~Amount ~Test1 },ListViewSubItem: {Journal is not the same}
+ListViewItem: {21},ListViewSubItem: {21},ListViewSubItem: {Transfer: ~Enough_Cash Amount Test1 },ListViewSubItem: {Journal is not the same}
+ListViewItem: {22},ListViewSubItem: {22},ListViewSubItem: {Transfer: ~Enough_Cash Amount ~Test1 },ListViewSubItem: {Journal is not the same}
+ListViewItem: {23},ListViewSubItem: {23},ListViewSubItem: {Transfer: ~Enough_Cash ~Amount Test1 },ListViewSubItem: {Journal is not the same}
+ListViewItem: {24},ListViewSubItem: {24},ListViewSubItem: {Transfer: ~Enough_Cash ~Amount ~Test1 },ListViewSubItem: {Journal is not the same}
