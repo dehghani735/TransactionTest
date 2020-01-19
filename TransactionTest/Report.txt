@@ -2887,3 +2887,28 @@ ConditionBasedPlan   [Transfer,~Enough_Cash Amount Test1      ] : 		Balance (Fai
 ConditionBasedPlan   [Transfer,~Enough_Cash Amount ~Test1     ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
 ConditionBasedPlan   [Transfer,~Enough_Cash ~Amount Test1     ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
 ConditionBasedPlan   [Transfer,~Enough_Cash ~Amount ~Test1    ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+2020-01-19 11:18:46 AM
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash ~Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN Enough_Cash ~Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash ~Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,Correct_PIN ~Enough_Cash ~Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash ~Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN Enough_Cash ~Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash ~Amount Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Withdrawal,~Correct_PIN ~Enough_Cash ~Amount ~Test1 ] : 		Balance (Failed) | Withdrawal (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,Enough_Cash Amount Test1       ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,Enough_Cash Amount ~Test1      ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,Enough_Cash ~Amount Test1      ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,Enough_Cash ~Amount ~Test1     ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,~Enough_Cash Amount Test1      ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,~Enough_Cash Amount ~Test1     ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,~Enough_Cash ~Amount Test1     ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
+ConditionBasedPlan   [Transfer,~Enough_Cash ~Amount ~Test1    ] : 		Balance (Failed) | Transfer (Failed) | Balance (Failed) | 
