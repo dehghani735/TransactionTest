@@ -41,7 +41,7 @@ namespace TransactionTest
         {
             get { return _transactionConfig; }
         }
-    
+
         // process before;
         // iterate in
         // process after; 

@@ -159,11 +159,11 @@ namespace TransactionTest
         {
             // Examine the stream
             var mapping =
-                (YamlMappingNode) _file.Documents[0].RootNode;
+                (YamlMappingNode)_file.Documents[0].RootNode;
 
             foreach (var entry in mapping.Children)
             {
-                Console.Write(((YamlScalarNode) entry.Key).Value + " : ");
+                Console.Write(((YamlScalarNode)entry.Key).Value + " : ");
 
                 string value = Regex.Replace((entry.Value).ToString(), @"\s+", string.Empty);
                 Console.Write(value.Trim('[').Trim(']'));
@@ -174,7 +174,7 @@ namespace TransactionTest
             Console.WriteLine("====================");
 
             // List all the items
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("Financial")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("Financial")])
                 _financial.Add(item.ToString());
             Console.WriteLine("Financial");
             foreach (string i in _financial)
@@ -182,56 +182,56 @@ namespace TransactionTest
                 Console.WriteLine(i + " ");
             }
             Console.WriteLine("====================");
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("Non-Financial")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("Non-Financial")])
                 _nonFinancial.Add(item.ToString());
             Console.WriteLine("nonFinancial");
             foreach (string i in _nonFinancial)
                 Console.WriteLine(i + " ");
             Console.WriteLine("====================");
             //====
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("Complete")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("Complete")])
                 _complete.Add(item.ToString());
             Console.WriteLine("Complete");
             foreach (string i in _complete)
                 Console.Write(i + " ");
             Console.WriteLine("====================");
             //====
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("Condition")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("Condition")])
                 _condition.Add(item.ToString());
             Console.WriteLine("Condition");
             foreach (string i in _condition)
                 Console.Write(i + " ");
             Console.WriteLine("====================");
             //====
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("Before-Checking")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("Before-Checking")])
                 _beforeChecking.Add(item.ToString());
             Console.WriteLine("Before-Checking");
             foreach (string i in _beforeChecking)
                 Console.Write(i + " ");
             Console.WriteLine("====================");
             //====
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("After-Checking")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("After-Checking")])
                 _afterChecking.Add(item.ToString());
             Console.WriteLine("After-Checking");
             foreach (string i in _afterChecking)
                 Console.Write(i + " ");
             Console.WriteLine("====================");
             //====
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("Reverse")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("Reverse")])
                 _reverse.Add(item.ToString());
             Console.WriteLine("Reverse");
             foreach (string i in _reverse)
                 Console.Write(i + " ");
             Console.WriteLine("====================");
             //====
-            foreach (YamlScalarNode item in (YamlSequenceNode) mapping.Children[new YamlScalarNode("Bad-Data")])
+            foreach (YamlScalarNode item in (YamlSequenceNode)mapping.Children[new YamlScalarNode("Bad-Data")])
                 _badData.Add(item.ToString());
             Console.WriteLine("Bad-Data");
             foreach (string i in _badData)
                 Console.Write(i + " ");
 
-            var dataParameters = (YamlMappingNode) mapping.Children[new YamlScalarNode("Data-Parameters")];
-            var cards = (YamlSequenceNode) dataParameters.Children[new YamlScalarNode("Cards")];
+            var dataParameters = (YamlMappingNode)mapping.Children[new YamlScalarNode("Data-Parameters")];
+            var cards = (YamlSequenceNode)dataParameters.Children[new YamlScalarNode("Cards")];
             foreach (YamlMappingNode data in cards)
             {
                 Card card = new Card();
@@ -249,13 +249,13 @@ namespace TransactionTest
             }
             Console.WriteLine("====================");
 
-            var amount = (YamlScalarNode) dataParameters.Children[new YamlScalarNode("Amount")];
+            var amount = (YamlScalarNode)dataParameters.Children[new YamlScalarNode("Amount")];
             _amount = amount.ToString();
             Console.WriteLine(amount);
 
             Console.WriteLine("====================");
 
-            var networks = (YamlSequenceNode) dataParameters.Children[new YamlScalarNode("Networks")];
+            var networks = (YamlSequenceNode)dataParameters.Children[new YamlScalarNode("Networks")];
             foreach (YamlMappingNode data in networks)
             {
                 var network = new Network();
@@ -281,7 +281,7 @@ namespace TransactionTest
                 _expectedResultNames.Add(tran);
             }
 
-            var expectedResult = (YamlSequenceNode) mapping.Children[new YamlScalarNode("Expected-Results")];
+            var expectedResult = (YamlSequenceNode)mapping.Children[new YamlScalarNode("Expected-Results")];
             foreach (var tran in _expectedResultNames)
             {
                 Dictionary<HashSet<string>, ExpectedResult> _expectedResults =
