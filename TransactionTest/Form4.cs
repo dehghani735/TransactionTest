@@ -52,7 +52,7 @@ namespace TransactionTest
             // Create columns for the items and subitems.
             // Width of -2 indicates auto-size.
             listView1.Columns.Add("Number", -2, HorizontalAlignment.Center);
-            listView1.Columns.Add("Item Column", -2, HorizontalAlignment.Left);
+            listView1.Columns.Add("Plan Description", -2, HorizontalAlignment.Left);
             listView1.Columns.Add("Error Reason", -2, HorizontalAlignment.Left);
         }
 

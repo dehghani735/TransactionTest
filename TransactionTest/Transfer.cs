@@ -8,11 +8,12 @@ namespace TransactionTest
 {
     public class Transfer : NdcTransactionRequestMessage
     {
-        public static bool isCorrect_PIN = false;
+        public static bool isCorrect_PIN = true;
         public static bool isAmount = true;
-        public static bool isEnough_Cash = true;
+        public static bool isEnough_Cash = false;
         public static bool isOther = false;
-        public static bool isTest1 = true;
+        public static bool isTest1 = false;
+        public static bool isDestination_Card = true;
 
         public Transfer()
         {

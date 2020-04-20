@@ -12,6 +12,7 @@ namespace TransactionTest
         public static bool isAmount = true;
         public static bool isEnough_Cash = false;
         public static bool isOther = false;
+        public static bool isDestination_Card = true;
 
         public Balance(TransactionConfig transactionConfig) : base(transactionConfig)
         {
@@ -43,7 +44,7 @@ namespace TransactionTest
             //TODO: a list of Msgs that form a Plan to send
             var msg = this.GetNdcTransactionRequestMessage();
 
-            var received = ""; //network.SendAndReceive(msg); //"" //TODO 
+            var received = network.SendAndReceive(msg); //"" //TODO 
             Console.WriteLine("Received: " + received);
 
             var replyCommand = new ReplyBalance(received);

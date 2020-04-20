@@ -13,6 +13,7 @@ namespace TransactionTest
         public static bool isEnough_Cash = true;
         public static bool isOther = false;
         public static bool isTest1 = true;
+        public static bool isDestination_Card = false;
 
         public Withdrawal()
         {
@@ -44,7 +45,7 @@ namespace TransactionTest
             //TODO: a list of Msgs that form a Plan to send
             var msg = this.GetNdcTransactionRequestMessage();
 
-            var received = ""; // network.SendAndReceive(msg); //"" //TODO
+            var received = network.SendAndReceive(msg); //"" //TODO
             Console.WriteLine("Received: " + received);
 
             var replyCommand = new ReplyWithdrawal(received);

@@ -281,6 +281,11 @@ namespace TransactionTest
                     (bool)objectType.InvokeMember("isAmount", BindingFlags.GetField, null, instantiatedObject, null);
             var Test1 =
                     (bool)objectType.InvokeMember("isTest1", BindingFlags.GetField, null, instantiatedObject, null);
+            var Destination_Card =
+                (bool)objectType.InvokeMember("isDestination_Card", BindingFlags.GetField, null, instantiatedObject, null);
+
+
+            //Destination_Card
             // TODO: add conditions continuously during system change
 
             Dictionary<string, bool> staticConditions = new Dictionary<string, bool>();
@@ -289,6 +294,7 @@ namespace TransactionTest
             staticConditions.Add(nameof(Enough_Cash), Enough_Cash);
             staticConditions.Add(nameof(Amount), Amount);
             staticConditions.Add(nameof(Test1), Test1);
+            staticConditions.Add(nameof(Destination_Card), Destination_Card);
             // TODO: add conditions continuously during system change
 
 

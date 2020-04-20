@@ -86,7 +86,7 @@ namespace TransactionTest
             // 
             // ExportExcel
             // 
-            this.ExportExcel.Location = new System.Drawing.Point(1115, 635);
+            this.ExportExcel.Location = new System.Drawing.Point(1125, 544);
             this.ExportExcel.Name = "ExportExcel";
             this.ExportExcel.Size = new System.Drawing.Size(131, 32);
             this.ExportExcel.TabIndex = 7;
@@ -164,7 +164,7 @@ namespace TransactionTest
             this.Controls.Add(this.listView1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "‰—„ «›“«—  ” ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

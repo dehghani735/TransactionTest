@@ -15,6 +15,7 @@ Condition:
     - Enough_Cash
     - Amount
     - Test1
+    - Destination_Card
 
 Before-Checking:
     - Card_Status

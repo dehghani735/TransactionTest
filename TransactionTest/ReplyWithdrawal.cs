@@ -18,7 +18,7 @@ namespace TransactionTest
 
             ErrorMessage = "Receipt is not the same";
             Console.WriteLine("ReplyWithdrawal started");
-            return false;
+            return true;
         }
     }
 }
